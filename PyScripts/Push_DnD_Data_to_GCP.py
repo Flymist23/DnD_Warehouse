@@ -1,0 +1,1 @@
+# pushes file from DnD_Data to BigQuery Bucket using minimal permissions
