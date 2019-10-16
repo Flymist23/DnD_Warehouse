@@ -31,6 +31,7 @@ fileContent = re.sub("(,) ", r'\1', fileContent.rstrip())
 fileContent = re.sub("(,)\*", r'\1', fileContent.rstrip())
 fileContent = re.sub("\*", "_", fileContent.rstrip())
 fileContent = re.sub('/', "", fileContent.rstrip())
+fileContent = re.sub('-', "", fileContent.rstrip())
 fileContent = re.sub(" ", "", fileContent.rstrip())
 
 csv_file = open("DnD_DataBuffers\Raw_GitHub_Datatset.csv", "w+")
