@@ -1,6 +1,16 @@
-Purpose of these the files in these folders is to show the data pipeline and under normal circumstances 
-would likely be unecessary to house on a local machine.
+This is the ETL portion of my project
 
+for convenience sake, I'm not forcing users to get the repository where
+the uniqueTable.tsv is from. Instead I've made a folder for it.
+This makes it much easier for Peers to review it. In production that folder 
+would house the repository and the relative data file path of Get_DnD_Raw_From_Repos.py
+would be different. Furthermore, that would allow for automatic updates
+when the remote repository updates.
+
+Purpose of these the files in these folders is to show the data pipeline and under normal circumstances 
+wouldn't likely be unecessary to house on a local machine.
+
+THE POWERSHELL SCRIPT LIKELY NEEDS TO BE MANUALLY EXECUTED
 NOTE: ALL PATHS ARE RELATIVE WHERE APPLICABLE
     -some may need changing
     -Also the Powershell script may need to be manually run

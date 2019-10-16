@@ -3,7 +3,7 @@
 
 # code obtained from, https://stackoverflow.com/questions/29759305/how-do-i-convert-a-tsv-to-csv
 import re
-tsv = open('D:\\GitHubRepositories\\temp\\dndstats\\docs\\uniqueTable.tsv', 'r')
+tsv = open('From_GitHub\\uniqueTable.tsv', 'r')
 fileContent =  tsv.read()
 
 # fileContent = re.sub("", r'\1', fileContent.rstrip())
@@ -32,6 +32,6 @@ fileContent = re.sub("(,)\*", r'\1', fileContent.rstrip())
 fileContent = re.sub(" ", "", fileContent)
 
 
-csv_file = open(".\DnD_Warehouse\DnD_DataBuffers\Raw_GitHub_Datatset.csv", "w+")
+csv_file = open("DnD_DataBuffers\Raw_GitHub_Datatset.csv", "w+")
 csv_file.write(fileContent)
 csv_file.close()

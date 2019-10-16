@@ -1,7 +1,7 @@
 import csv
 
-input_file = '\\DnD_Warehouse\\DnD_DataBuffers\\Raw_GitHub_Datatset.csv'
-output_file = '\\DnD_Warehouse\\DnD_DataBuffers\\buffer.csv'
+input_file = 'DnD_DataBuffers\\Raw_GitHub_Datatset.csv'
+output_file = 'DnD_DataBuffers\\buffer.csv'
 cols_to_remove = [1,2,4,17,19,20,21,23,24,28] # Column indexes to be removed (starts at 0)
 # 5,6,8,18,26,27
 

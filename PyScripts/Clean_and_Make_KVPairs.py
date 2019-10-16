@@ -2,8 +2,8 @@ import json
 import string
 import re
 
-input_file = '\\DnD_Warehouse\\DnD_Data\\nd-proceesed-dnd-players2.json'
-output_file = '\\DnD_Warehouse\\DnD_Data\\nd-proceesed-dnd-players3.json'
+input_file = 'DnD_Data\\nd-proceesed-dnd-players2.json'
+output_file = 'DnD_Data\\nd-proceesed-dnd-players3.json'
 # Dictionary Data is used for obtaining a single JSON object from the file and working with it 
 data = {}
 # raw lists are used to store data that can be made into CSV data to later be added to a table
@@ -40,7 +40,7 @@ def RetrieveList(setItems, processed_List):
                 else:
                         processed_List.append(word)
 def AddToDictionary(parameter_list, fieldnames_List, filename):
-        with open('\\DnD_Warehouse\\DnD_Data\\nd-processed-dnd-' + filename + '.json', 'w+', newline= '') as f:
+        with open('DnD_Data\\nd-processed-dnd-' + filename + '.json', 'w+', newline= '') as f:
                 count = 0
                 while count < len(parameter_list):
                         data = {fieldnames_List[0]: count, fieldnames_List[1]: parameter_list[count]}
@@ -53,8 +53,8 @@ def AddToDictionary_2(parameter_list, fieldnames_List, filename, playerFile):
         data1 ={}
         data2 ={}
 
-        with open('\\DnD_Warehouse\\DnD_Data\\nd-processed-dnd-' + filename +'-bridge' +'.json', 'w+', newline= '') as f:
-                with open('\\DnD_Warehouse\\DnD_Data\\nd-processed-dnd-' + filename +'-helper' +'.json', 'w+', newline= '') as f2:
+        with open('DnD_Data\\nd-processed-dnd-' + filename +'-bridge' +'.json', 'w+', newline= '') as f:
+                with open('DnD_Data\\nd-processed-dnd-' + filename +'-helper' +'.json', 'w+', newline= '') as f2:
 
                                 recordNum = 0
                                 while recordNum < len(parameter_list):
