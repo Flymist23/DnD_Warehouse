@@ -30,7 +30,7 @@ fileContent = re.sub("(,)NA", r'\1', fileContent.rstrip())
 fileContent = re.sub("(,) ", r'\1', fileContent.rstrip())
 fileContent = re.sub("(,)\*", r'\1', fileContent.rstrip())
 
-
+fileContent = re.sub(" ", "", fileContent.rstrip())
 
 csv_file = open("DnD_DataBuffers\Raw_GitHub_Datatset.csv", "w+")
 csv_file.write(fileContent)

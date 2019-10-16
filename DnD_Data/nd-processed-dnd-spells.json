@@ -1,329 +1,329 @@
-{"spellID": 0, "spellName": "Lesser Restoration*2"}
-{"spellID": 1, "spellName": "Guidance*0"}
-{"spellID": 2, "spellName": "Cure Wounds*1"}
-{"spellID": 3, "spellName": "Flaming Sphere*2"}
-{"spellID": 4, "spellName": "Comprehend Languages*1"}
-{"spellID": 5, "spellName": "Minor Illusion*0"}
-{"spellID": 6, "spellName": "Synaptic Static*5"}
-{"spellID": 7, "spellName": "Guiding Bolt*1"}
-{"spellID": 8, "spellName": "Flame Strike*5"}
-{"spellID": 9, "spellName": "Illusory Script*1"}
-{"spellID": 10, "spellName": "Daylight*3"}
-{"spellID": 11, "spellName": "Word of Radiance*0"}
-{"spellID": 12, "spellName": "Crown of Stars*7"}
-{"spellID": 13, "spellName": "Sacred Flame*0"}
-{"spellID": 14, "spellName": "Invisibility*2"}
-{"spellID": 15, "spellName": "Polymorph*4"}
-{"spellID": 16, "spellName": "Mage Armor*1"}
-{"spellID": 17, "spellName": "Dispel Magic*3"}
-{"spellID": 18, "spellName": "Prestidigitation*0"}
-{"spellID": 19, "spellName": "Wall of Fire*4"}
-{"spellID": 20, "spellName": "Protection from Evil and Good*1"}
-{"spellID": 21, "spellName": "Levitate*2"}
-{"spellID": 22, "spellName": "Alter Self*2"}
-{"spellID": 23, "spellName": "Spare the Dying*0"}
-{"spellID": 24, "spellName": "Feeblemind*8"}
-{"spellID": 25, "spellName": "Mage Hand*0"}
-{"spellID": 26, "spellName": "Dimension Door*4"}
-{"spellID": 27, "spellName": "Greater Restoration*5"}
-{"spellID": 28, "spellName": "Gaseous Form*3"}
-{"spellID": 29, "spellName": "Misty Step*2"}
-{"spellID": 30, "spellName": "Banishment*4"}
-{"spellID": 31, "spellName": "Revivify*3"}
-{"spellID": 32, "spellName": "Power Word Kill*9"}
-{"spellID": 33, "spellName": "Fireball*3"}
-{"spellID": 34, "spellName": "Disguise Self*1"}
-{"spellID": 35, "spellName": "Guardian of Faith*4"}
-{"spellID": 36, "spellName": "Light*0"}
-{"spellID": 37, "spellName": "Mass Suggestion*6"}
-{"spellID": 38, "spellName": "Eldritch Blast*0"}
-{"spellID": 39, "spellName": "Danse Macabre*5"}
-{"spellID": 40, "spellName": "Catapult*1"}
-{"spellID": 41, "spellName": "Blade Ward*0"}
-{"spellID": 42, "spellName": "Bigbys Hand*5"}
-{"spellID": 43, "spellName": "Scorching Ray*2"}
-{"spellID": 44, "spellName": "Summon Greater Demon*4"}
-{"spellID": 45, "spellName": "Contingency*6"}
-{"spellID": 46, "spellName": "Nystuls Magic Aura*2"}
-{"spellID": 47, "spellName": "Mind Spike*2"}
-{"spellID": 48, "spellName": "Steel Wind Strike*5"}
-{"spellID": 49, "spellName": "Vampiric Touch*3"}
-{"spellID": 50, "spellName": "Antimagic Field*8"}
-{"spellID": 51, "spellName": "Ray of Sickness*1"}
-{"spellID": 52, "spellName": "Counterspell*3"}
-{"spellID": 53, "spellName": "Mordenkainens Faithful Hound*4"}
-{"spellID": 54, "spellName": "Identify*1"}
-{"spellID": 55, "spellName": "Message*0"}
-{"spellID": 56, "spellName": "Tensers Transformation*6"}
-{"spellID": 57, "spellName": "Invulnerability*9"}
-{"spellID": 58, "spellName": "Control Flames*0"}
-{"spellID": 59, "spellName": "Mirror Image*2"}
-{"spellID": 60, "spellName": "Reverse Gravity*7"}
-{"spellID": 61, "spellName": "Ray of Frost*0"}
-{"spellID": 62, "spellName": "Summon Lesser Demons*3"}
-{"spellID": 63, "spellName": "Forcecage*7"}
-{"spellID": 64, "spellName": "Green-Flame Blade*0"}
-{"spellID": 65, "spellName": "Wish*9"}
-{"spellID": 66, "spellName": "Find Familiar*1"}
-{"spellID": 67, "spellName": "Fire Bolt*0"}
-{"spellID": 68, "spellName": "Sunburst*8"}
-{"spellID": 69, "spellName": "Crusaders Mantle*3"}
-{"spellID": 70, "spellName": "Spirit Guardians*3"}
-{"spellID": 71, "spellName": "Hold Monster*5"}
-{"spellID": 72, "spellName": "Magic Weapon*2"}
-{"spellID": 73, "spellName": "Divine Favor*1"}
-{"spellID": 74, "spellName": "Spiritual Weapon*2"}
-{"spellID": 75, "spellName": "Freedom of Movement*4"}
-{"spellID": 76, "spellName": "Stoneskin*4"}
-{"spellID": 77, "spellName": "Shield of Faith*1"}
-{"spellID": 78, "spellName": "Ensnaring Strike*1"}
-{"spellID": 79, "spellName": "Speak with Animals*1"}
-{"spellID": 80, "spellName": "Tree Stride*5"}
-{"spellID": 81, "spellName": "Commune with Nature*5"}
-{"spellID": 82, "spellName": "Ice Storm*4"}
-{"spellID": 83, "spellName": "Protection from Energy*3"}
-{"spellID": 84, "spellName": "Moonbeam*2"}
-{"spellID": 85, "spellName": "Plant Growth*3"}
-{"spellID": 86, "spellName": "Animate Dead*3"}
+{"spellID": 0, "spellName": "MinorIllusion*0"}
+{"spellID": 1, "spellName": "Fireball*3"}
+{"spellID": 2, "spellName": "ComprehendLanguages*1"}
+{"spellID": 3, "spellName": "AlterSelf*2"}
+{"spellID": 4, "spellName": "MageHand*0"}
+{"spellID": 5, "spellName": "Banishment*4"}
+{"spellID": 6, "spellName": "Prestidigitation*0"}
+{"spellID": 7, "spellName": "FlamingSphere*2"}
+{"spellID": 8, "spellName": "Invisibility*2"}
+{"spellID": 9, "spellName": "MistyStep*2"}
+{"spellID": 10, "spellName": "MassSuggestion*6"}
+{"spellID": 11, "spellName": "EldritchBlast*0"}
+{"spellID": 12, "spellName": "Polymorph*4"}
+{"spellID": 13, "spellName": "GuidingBolt*1"}
+{"spellID": 14, "spellName": "DimensionDoor*4"}
+{"spellID": 15, "spellName": "GreaterRestoration*5"}
+{"spellID": 16, "spellName": "LesserRestoration*2"}
+{"spellID": 17, "spellName": "CureWounds*1"}
+{"spellID": 18, "spellName": "IllusoryScript*1"}
+{"spellID": 19, "spellName": "DisguiseSelf*1"}
+{"spellID": 20, "spellName": "WordofRadiance*0"}
+{"spellID": 21, "spellName": "Guidance*0"}
+{"spellID": 22, "spellName": "FlameStrike*5"}
+{"spellID": 23, "spellName": "Feeblemind*8"}
+{"spellID": 24, "spellName": "CrownofStars*7"}
+{"spellID": 25, "spellName": "WallofFire*4"}
+{"spellID": 26, "spellName": "PowerWordKill*9"}
+{"spellID": 27, "spellName": "Levitate*2"}
+{"spellID": 28, "spellName": "DanseMacabre*5"}
+{"spellID": 29, "spellName": "GaseousForm*3"}
+{"spellID": 30, "spellName": "SynapticStatic*5"}
+{"spellID": 31, "spellName": "DispelMagic*3"}
+{"spellID": 32, "spellName": "ProtectionfromEvilandGood*1"}
+{"spellID": 33, "spellName": "Light*0"}
+{"spellID": 34, "spellName": "SparetheDying*0"}
+{"spellID": 35, "spellName": "MageArmor*1"}
+{"spellID": 36, "spellName": "GuardianofFaith*4"}
+{"spellID": 37, "spellName": "SacredFlame*0"}
+{"spellID": 38, "spellName": "Daylight*3"}
+{"spellID": 39, "spellName": "Revivify*3"}
+{"spellID": 40, "spellName": "Counterspell*3"}
+{"spellID": 41, "spellName": "Message*0"}
+{"spellID": 42, "spellName": "BladeWard*0"}
+{"spellID": 43, "spellName": "Wish*9"}
+{"spellID": 44, "spellName": "BigbysHand*5"}
+{"spellID": 45, "spellName": "ControlFlames*0"}
+{"spellID": 46, "spellName": "ReverseGravity*7"}
+{"spellID": 47, "spellName": "Invulnerability*9"}
+{"spellID": 48, "spellName": "Forcecage*7"}
+{"spellID": 49, "spellName": "SteelWindStrike*5"}
+{"spellID": 50, "spellName": "TensersTransformation*6"}
+{"spellID": 51, "spellName": "SummonGreaterDemon*4"}
+{"spellID": 52, "spellName": "RayofFrost*0"}
+{"spellID": 53, "spellName": "MindSpike*2"}
+{"spellID": 54, "spellName": "MordenkainensFaithfulHound*4"}
+{"spellID": 55, "spellName": "Identify*1"}
+{"spellID": 56, "spellName": "RayofSickness*1"}
+{"spellID": 57, "spellName": "SummonLesserDemons*3"}
+{"spellID": 58, "spellName": "VampiricTouch*3"}
+{"spellID": 59, "spellName": "NystulsMagicAura*2"}
+{"spellID": 60, "spellName": "AntimagicField*8"}
+{"spellID": 61, "spellName": "MirrorImage*2"}
+{"spellID": 62, "spellName": "Sunburst*8"}
+{"spellID": 63, "spellName": "Catapult*1"}
+{"spellID": 64, "spellName": "Contingency*6"}
+{"spellID": 65, "spellName": "Green-FlameBlade*0"}
+{"spellID": 66, "spellName": "ScorchingRay*2"}
+{"spellID": 67, "spellName": "FindFamiliar*1"}
+{"spellID": 68, "spellName": "FireBolt*0"}
+{"spellID": 69, "spellName": "FreedomofMovement*4"}
+{"spellID": 70, "spellName": "Stoneskin*4"}
+{"spellID": 71, "spellName": "HoldMonster*5"}
+{"spellID": 72, "spellName": "MagicWeapon*2"}
+{"spellID": 73, "spellName": "SpiritualWeapon*2"}
+{"spellID": 74, "spellName": "DivineFavor*1"}
+{"spellID": 75, "spellName": "SpiritGuardians*3"}
+{"spellID": 76, "spellName": "ShieldofFaith*1"}
+{"spellID": 77, "spellName": "CrusadersMantle*3"}
+{"spellID": 78, "spellName": "CommunewithNature*5"}
+{"spellID": 79, "spellName": "EnsnaringStrike*1"}
+{"spellID": 80, "spellName": "IceStorm*4"}
+{"spellID": 81, "spellName": "TreeStride*5"}
+{"spellID": 82, "spellName": "SpeakwithAnimals*1"}
+{"spellID": 83, "spellName": "ProtectionfromEnergy*3"}
+{"spellID": 84, "spellName": "PlantGrowth*3"}
+{"spellID": 85, "spellName": "Moonbeam*2"}
+{"spellID": 86, "spellName": "AnimateDead*3"}
 {"spellID": 87, "spellName": "Barkskin*2"}
-{"spellID": 88, "spellName": "Call Lightning*3"}
-{"spellID": 89, "spellName": "Spider Climb*2"}
-{"spellID": 90, "spellName": "Divination*4"}
-{"spellID": 91, "spellName": "Circle of Death*6"}
-{"spellID": 92, "spellName": "Dust Devil*2"}
-{"spellID": 93, "spellName": "Detect Thoughts*2"}
-{"spellID": 94, "spellName": "Phantasmal Killer*4"}
-{"spellID": 95, "spellName": "Ray of Enfeeblement*2"}
-{"spellID": 96, "spellName": "Maddening Darkness*8"}
-{"spellID": 97, "spellName": "Disintegrate*6"}
-{"spellID": 98, "spellName": "Phantom Steed*3"}
-{"spellID": 99, "spellName": "Soul Cage*6"}
-{"spellID": 100, "spellName": "Detect Magic*1"}
-{"spellID": 101, "spellName": "Unseen Servant*1"}
-{"spellID": 102, "spellName": "Crown of Madness*2"}
-{"spellID": 103, "spellName": "Cloudkill*5"}
-{"spellID": 104, "spellName": "Friends*0"}
-{"spellID": 105, "spellName": "Conjure Elemental*5"}
-{"spellID": 106, "spellName": "Conjure Minor Elementals*4"}
-{"spellID": 107, "spellName": "Shocking Grasp*0"}
-{"spellID": 108, "spellName": "Charm Person*1"}
-{"spellID": 109, "spellName": "Cause Fear*1"}
-{"spellID": 110, "spellName": "Mighty Fortress*8"}
-{"spellID": 111, "spellName": "Infestation*0"}
-{"spellID": 112, "spellName": "Antipathy/Sympathy*8"}
-{"spellID": 113, "spellName": "Hold Person*2"}
-{"spellID": 114, "spellName": "Hypnotic Pattern*3"}
-{"spellID": 115, "spellName": "Fear*3"}
-{"spellID": 116, "spellName": "Mental Prison*6"}
-{"spellID": 117, "spellName": "Mordenkainens Magnificent Mansion*7"}
-{"spellID": 118, "spellName": "Mold Earth*0"}
-{"spellID": 119, "spellName": "Lightning Lure*0"}
-{"spellID": 120, "spellName": "Hellish Rebuke*1"}
-{"spellID": 121, "spellName": "Hex*1"}
-{"spellID": 122, "spellName": "Remove Curse*3"}
-{"spellID": 123, "spellName": "Vicious Mockery*0"}
-{"spellID": 124, "spellName": "Hunger of Hadar*3"}
-{"spellID": 125, "spellName": "Fly*3"}
-{"spellID": 126, "spellName": "Negative Energy Flood*5"}
-{"spellID": 127, "spellName": "Beacon of Hope*3"}
-{"spellID": 128, "spellName": "Zone of Truth*2"}
+{"spellID": 88, "spellName": "Divination*4"}
+{"spellID": 89, "spellName": "SpiderClimb*2"}
+{"spellID": 90, "spellName": "CallLightning*3"}
+{"spellID": 91, "spellName": "MightyFortress*8"}
+{"spellID": 92, "spellName": "CrownofMadness*2"}
+{"spellID": 93, "spellName": "Friends*0"}
+{"spellID": 94, "spellName": "DetectMagic*1"}
+{"spellID": 95, "spellName": "ShockingGrasp*0"}
+{"spellID": 96, "spellName": "CharmPerson*1"}
+{"spellID": 97, "spellName": "Fear*3"}
+{"spellID": 98, "spellName": "MaddeningDarkness*8"}
+{"spellID": 99, "spellName": "Cloudkill*5"}
+{"spellID": 100, "spellName": "SoulCage*6"}
+{"spellID": 101, "spellName": "ConjureMinorElementals*4"}
+{"spellID": 102, "spellName": "RayofEnfeeblement*2"}
+{"spellID": 103, "spellName": "PhantomSteed*3"}
+{"spellID": 104, "spellName": "PhantasmalKiller*4"}
+{"spellID": 105, "spellName": "DetectThoughts*2"}
+{"spellID": 106, "spellName": "CauseFear*1"}
+{"spellID": 107, "spellName": "MordenkainensMagnificentMansion*7"}
+{"spellID": 108, "spellName": "UnseenServant*1"}
+{"spellID": 109, "spellName": "HypnoticPattern*3"}
+{"spellID": 110, "spellName": "DustDevil*2"}
+{"spellID": 111, "spellName": "HoldPerson*2"}
+{"spellID": 112, "spellName": "Infestation*0"}
+{"spellID": 113, "spellName": "ConjureElemental*5"}
+{"spellID": 114, "spellName": "CircleofDeath*6"}
+{"spellID": 115, "spellName": "Disintegrate*6"}
+{"spellID": 116, "spellName": "Antipathy/Sympathy*8"}
+{"spellID": 117, "spellName": "MentalPrison*6"}
+{"spellID": 118, "spellName": "Fly*3"}
+{"spellID": 119, "spellName": "HellishRebuke*1"}
+{"spellID": 120, "spellName": "ViciousMockery*0"}
+{"spellID": 121, "spellName": "MoldEarth*0"}
+{"spellID": 122, "spellName": "NegativeEnergyFlood*5"}
+{"spellID": 123, "spellName": "RemoveCurse*3"}
+{"spellID": 124, "spellName": "LightningLure*0"}
+{"spellID": 125, "spellName": "HungerofHadar*3"}
+{"spellID": 126, "spellName": "Hex*1"}
+{"spellID": 127, "spellName": "BeaconofHope*3"}
+{"spellID": 128, "spellName": "ZoneofTruth*2"}
 {"spellID": 129, "spellName": "Sanctuary*1"}
-{"spellID": 130, "spellName": "Locate Creature*4"}
-{"spellID": 131, "spellName": "Pass Without Trace*2"}
-{"spellID": 132, "spellName": "Speak with Plants*3"}
-{"spellID": 133, "spellName": "Spike Growth*2"}
-{"spellID": 134, "spellName": "Conjure Woodland Beings*4"}
-{"spellID": 135, "spellName": "Wind Wall*3"}
-{"spellID": 136, "spellName": "Hunters Mark*1"}
-{"spellID": 137, "spellName": "Animal Friendship*1"}
-{"spellID": 138, "spellName": "Water Breathing*3"}
-{"spellID": 139, "spellName": "Haste*3"}
-{"spellID": 140, "spellName": "Bane*1"}
-{"spellID": 141, "spellName": "Mass Cure Wounds*5"}
-{"spellID": 142, "spellName": "Raise Dead*5"}
-{"spellID": 143, "spellName": "Bless*1"}
-{"spellID": 144, "spellName": "Death Ward*4"}
-{"spellID": 145, "spellName": "True Strike*0"}
-{"spellID": 146, "spellName": "Thunderwave*1"}
-{"spellID": 147, "spellName": "Shape Water*0"}
-{"spellID": 148, "spellName": "See Invisibility*2"}
-{"spellID": 149, "spellName": "Shield*1"}
-{"spellID": 150, "spellName": "Heal*6"}
-{"spellID": 151, "spellName": "Sleet Storm*3"}
-{"spellID": 152, "spellName": "Healing Word*1"}
-{"spellID": 153, "spellName": "Control Water*4"}
-{"spellID": 154, "spellName": "Destructive Wave*5"}
-{"spellID": 155, "spellName": "Insect Plague*5"}
-{"spellID": 156, "spellName": "Fog Cloud*1"}
-{"spellID": 157, "spellName": "Gust of Wind*2"}
-{"spellID": 158, "spellName": "Fire Storm*7"}
+{"spellID": 130, "spellName": "AnimalFriendship*1"}
+{"spellID": 131, "spellName": "SpeakwithPlants*3"}
+{"spellID": 132, "spellName": "LocateCreature*4"}
+{"spellID": 133, "spellName": "ConjureWoodlandBeings*4"}
+{"spellID": 134, "spellName": "WaterBreathing*3"}
+{"spellID": 135, "spellName": "PassWithoutTrace*2"}
+{"spellID": 136, "spellName": "HuntersMark*1"}
+{"spellID": 137, "spellName": "SpikeGrowth*2"}
+{"spellID": 138, "spellName": "WindWall*3"}
+{"spellID": 139, "spellName": "Bane*1"}
+{"spellID": 140, "spellName": "Haste*3"}
+{"spellID": 141, "spellName": "DeathWard*4"}
+{"spellID": 142, "spellName": "Bless*1"}
+{"spellID": 143, "spellName": "MassCureWounds*5"}
+{"spellID": 144, "spellName": "RaiseDead*5"}
+{"spellID": 145, "spellName": "SeeInvisibility*2"}
+{"spellID": 146, "spellName": "Shield*1"}
+{"spellID": 147, "spellName": "TrueStrike*0"}
+{"spellID": 148, "spellName": "ShapeWater*0"}
+{"spellID": 149, "spellName": "Thunderwave*1"}
+{"spellID": 150, "spellName": "FogCloud*1"}
+{"spellID": 151, "spellName": "GustofWind*2"}
+{"spellID": 152, "spellName": "TolltheDead*0"}
+{"spellID": 153, "spellName": "InsectPlague*5"}
+{"spellID": 154, "spellName": "Heal*6"}
+{"spellID": 155, "spellName": "ControlWater*4"}
+{"spellID": 156, "spellName": "SleetStorm*3"}
+{"spellID": 157, "spellName": "LifeTransference*3"}
+{"spellID": 158, "spellName": "DestructiveWave*5"}
 {"spellID": 159, "spellName": "Resistance*0"}
 {"spellID": 160, "spellName": "Shatter*2"}
-{"spellID": 161, "spellName": "Toll the Dead*0"}
-{"spellID": 162, "spellName": "Life Transference*3"}
-{"spellID": 163, "spellName": "Inflict Wounds*1"}
-{"spellID": 164, "spellName": "Creation*5"}
-{"spellID": 165, "spellName": "Heat Metal*2"}
-{"spellID": 166, "spellName": "Searing Smite*1"}
-{"spellID": 167, "spellName": "Animate Objects*5"}
-{"spellID": 168, "spellName": "Fabricate*4"}
-{"spellID": 169, "spellName": "Elemental Weapon*3"}
-{"spellID": 170, "spellName": "Hail of Thorns*1"}
-{"spellID": 171, "spellName": "Cordon Of Arrows*2"}
-{"spellID": 172, "spellName": "Silence*2"}
-{"spellID": 173, "spellName": "Conjure Barrage*3"}
-{"spellID": 174, "spellName": "Lightning Arrow*3"}
-{"spellID": 175, "spellName": "Find Steed*2"}
-{"spellID": 176, "spellName": "Purify Food and Drink*1"}
-{"spellID": 177, "spellName": "Compelled Duel*1"}
-{"spellID": 178, "spellName": "Aura Of Vitality*3"}
-{"spellID": 179, "spellName": "Blinding Smite*3"}
-{"spellID": 180, "spellName": "Wrathful Smite*1"}
-{"spellID": 181, "spellName": "Branding Smite*2"}
-{"spellID": 182, "spellName": "Thunderous Smite*1"}
-{"spellID": 183, "spellName": "Command*1"}
-{"spellID": 184, "spellName": "Confusion*4"}
-{"spellID": 185, "spellName": "Chill Touch*0"}
-{"spellID": 186, "spellName": "Blight*4"}
-{"spellID": 187, "spellName": "Gentle Repose*2"}
-{"spellID": 188, "spellName": "Contagion*5"}
+{"spellID": 161, "spellName": "InflictWounds*1"}
+{"spellID": 162, "spellName": "HealingWord*1"}
+{"spellID": 163, "spellName": "FireStorm*7"}
+{"spellID": 164, "spellName": "SearingSmite*1"}
+{"spellID": 165, "spellName": "AnimateObjects*5"}
+{"spellID": 166, "spellName": "ElementalWeapon*3"}
+{"spellID": 167, "spellName": "HeatMetal*2"}
+{"spellID": 168, "spellName": "Creation*5"}
+{"spellID": 169, "spellName": "Fabricate*4"}
+{"spellID": 170, "spellName": "LightningArrow*3"}
+{"spellID": 171, "spellName": "CordonOfArrows*2"}
+{"spellID": 172, "spellName": "ConjureBarrage*3"}
+{"spellID": 173, "spellName": "Silence*2"}
+{"spellID": 174, "spellName": "HailofThorns*1"}
+{"spellID": 175, "spellName": "BrandingSmite*2"}
+{"spellID": 176, "spellName": "FindSteed*2"}
+{"spellID": 177, "spellName": "WrathfulSmite*1"}
+{"spellID": 178, "spellName": "Command*1"}
+{"spellID": 179, "spellName": "ThunderousSmite*1"}
+{"spellID": 180, "spellName": "PurifyFoodandDrink*1"}
+{"spellID": 181, "spellName": "BlindingSmite*3"}
+{"spellID": 182, "spellName": "AuraOfVitality*3"}
+{"spellID": 183, "spellName": "CompelledDuel*1"}
+{"spellID": 184, "spellName": "Blight*4"}
+{"spellID": 185, "spellName": "GentleRepose*2"}
+{"spellID": 186, "spellName": "Contagion*5"}
+{"spellID": 187, "spellName": "ChillTouch*0"}
+{"spellID": 188, "spellName": "Confusion*4"}
 {"spellID": 189, "spellName": "Suggestion*2"}
-{"spellID": 190, "spellName": "Tongues*3"}
-{"spellID": 191, "spellName": "Sickening Radiance*4"}
-{"spellID": 192, "spellName": "Major Image*3"}
-{"spellID": 193, "spellName": "Web*2"}
-{"spellID": 194, "spellName": "Immolation*5"}
-{"spellID": 195, "spellName": "Mending*0"}
-{"spellID": 196, "spellName": "Darkness*2"}
-{"spellID": 197, "spellName": "Bestow Curse*3"}
+{"spellID": 190, "spellName": "Mending*0"}
+{"spellID": 191, "spellName": "Web*2"}
+{"spellID": 192, "spellName": "SickeningRadiance*4"}
+{"spellID": 193, "spellName": "Immolation*5"}
+{"spellID": 194, "spellName": "Tongues*3"}
+{"spellID": 195, "spellName": "MajorImage*3"}
+{"spellID": 196, "spellName": "BestowCurse*3"}
+{"spellID": 197, "spellName": "Darkness*2"}
 {"spellID": 198, "spellName": "Heroism*1"}
-{"spellID": 199, "spellName": "Create or Destroy Water*1"}
-{"spellID": 200, "spellName": "Watery Sphere*4"}
-{"spellID": 201, "spellName": "Wrath of Nature*5"}
-{"spellID": 202, "spellName": "Erupting Earth*3"}
-{"spellID": 203, "spellName": "Skywrite*2"}
-{"spellID": 204, "spellName": "Thorn Whip*0"}
-{"spellID": 205, "spellName": "Animal Messenger*2"}
-{"spellID": 206, "spellName": "Druidcraft*0"}
-{"spellID": 207, "spellName": "Grasping Vine*4"}
-{"spellID": 208, "spellName": "Dominate Beast*4"}
-{"spellID": 209, "spellName": "Nondetection*3"}
-{"spellID": 210, "spellName": "Leomunds Tiny Hut*3"}
-{"spellID": 211, "spellName": "Hallucinatory Terrain*4"}
+{"spellID": 199, "spellName": "WrathofNature*5"}
+{"spellID": 200, "spellName": "Skywrite*2"}
+{"spellID": 201, "spellName": "Druidcraft*0"}
+{"spellID": 202, "spellName": "WaterySphere*4"}
+{"spellID": 203, "spellName": "CreateorDestroyWater*1"}
+{"spellID": 204, "spellName": "ThornWhip*0"}
+{"spellID": 205, "spellName": "AnimalMessenger*2"}
+{"spellID": 206, "spellName": "EruptingEarth*3"}
+{"spellID": 207, "spellName": "GraspingVine*4"}
+{"spellID": 208, "spellName": "DominateBeast*4"}
+{"spellID": 209, "spellName": "DancingLights*0"}
+{"spellID": 210, "spellName": "PlanarBinding*5"}
+{"spellID": 211, "spellName": "LeomundsTinyHut*3"}
 {"spellID": 212, "spellName": "Seeming*5"}
-{"spellID": 213, "spellName": "Dancing Lights*0"}
-{"spellID": 214, "spellName": "Planar Binding*5"}
-{"spellID": 215, "spellName": "Arcane Lock*2"}
-{"spellID": 216, "spellName": "Armor of Agathys*1"}
-{"spellID": 217, "spellName": "Prayer of Healing*2"}
-{"spellID": 218, "spellName": "Mass Healing Word*3"}
-{"spellID": 219, "spellName": "Blink*3"}
-{"spellID": 220, "spellName": "Holy Weapon*5"}
-{"spellID": 221, "spellName": "Dominate Person*5"}
-{"spellID": 222, "spellName": "Modify Memory*5"}
-{"spellID": 223, "spellName": "Wall of Light*5"}
-{"spellID": 224, "spellName": "Antilife Shell*5"}
-{"spellID": 225, "spellName": "Thaumaturgy*0"}
-{"spellID": 226, "spellName": "False Life*1"}
-{"spellID": 227, "spellName": "Sending*3"}
-{"spellID": 228, "spellName": "Speak with Dead*3"}
-{"spellID": 229, "spellName": "Glyph of Warding*3"}
-{"spellID": 230, "spellName": "Vitriolic Sphere*4"}
-{"spellID": 231, "spellName": "Chaos Bolt*1"}
+{"spellID": 213, "spellName": "Nondetection*3"}
+{"spellID": 214, "spellName": "HallucinatoryTerrain*4"}
+{"spellID": 215, "spellName": "ArcaneLock*2"}
+{"spellID": 216, "spellName": "ArmorofAgathys*1"}
+{"spellID": 217, "spellName": "HolyWeapon*5"}
+{"spellID": 218, "spellName": "Blink*3"}
+{"spellID": 219, "spellName": "DominatePerson*5"}
+{"spellID": 220, "spellName": "PrayerofHealing*2"}
+{"spellID": 221, "spellName": "ModifyMemory*5"}
+{"spellID": 222, "spellName": "MassHealingWord*3"}
+{"spellID": 223, "spellName": "WallofLight*5"}
+{"spellID": 224, "spellName": "Thaumaturgy*0"}
+{"spellID": 225, "spellName": "FalseLife*1"}
+{"spellID": 226, "spellName": "Sending*3"}
+{"spellID": 227, "spellName": "GlyphofWarding*3"}
+{"spellID": 228, "spellName": "AntilifeShell*5"}
+{"spellID": 229, "spellName": "SpeakwithDead*3"}
+{"spellID": 230, "spellName": "ChaosBolt*1"}
+{"spellID": 231, "spellName": "VitriolicSphere*4"}
 {"spellID": 232, "spellName": "Blindness/Deafness*2"}
-{"spellID": 233, "spellName": "Melfs Minute Meteors*3"}
-{"spellID": 234, "spellName": "Magic Missile*1"}
-{"spellID": 235, "spellName": "Chromatic Orb*1"}
-{"spellID": 236, "spellName": "Storm Sphere*4"}
-{"spellID": 237, "spellName": "Gust*0"}
-{"spellID": 238, "spellName": "Healing Spirit*2"}
-{"spellID": 239, "spellName": "Flame Blade*2"}
-{"spellID": 240, "spellName": "Conjure Animals*3"}
-{"spellID": 241, "spellName": "Magic Stone*0"}
-{"spellID": 242, "spellName": "Ice Knife*1"}
-{"spellID": 243, "spellName": "Thunderclap*0"}
-{"spellID": 244, "spellName": "Stone Shape*4"}
-{"spellID": 245, "spellName": "Enhance Ability*2"}
+{"spellID": 233, "spellName": "MelfsMinuteMeteors*3"}
+{"spellID": 234, "spellName": "MagicMissile*1"}
+{"spellID": 235, "spellName": "ChromaticOrb*1"}
+{"spellID": 236, "spellName": "StormSphere*4"}
+{"spellID": 237, "spellName": "HealingSpirit*2"}
+{"spellID": 238, "spellName": "FlameBlade*2"}
+{"spellID": 239, "spellName": "Gust*0"}
+{"spellID": 240, "spellName": "IceKnife*1"}
+{"spellID": 241, "spellName": "Thunderclap*0"}
+{"spellID": 242, "spellName": "MagicStone*0"}
+{"spellID": 243, "spellName": "ConjureAnimals*3"}
+{"spellID": 244, "spellName": "StoneShape*4"}
+{"spellID": 245, "spellName": "EnhanceAbility*2"}
 {"spellID": 246, "spellName": "Alarm*1"}
 {"spellID": 247, "spellName": "Sleep*1"}
-{"spellID": 248, "spellName": "Acid Splash*0"}
-{"spellID": 249, "spellName": "Find Traps*2"}
-{"spellID": 250, "spellName": "Faerie Fire*1"}
+{"spellID": 248, "spellName": "AcidSplash*0"}
+{"spellID": 249, "spellName": "FaerieFire*1"}
+{"spellID": 250, "spellName": "FindTraps*2"}
 {"spellID": 251, "spellName": "Darkvision*2"}
 {"spellID": 252, "spellName": "Entangle*1"}
 {"spellID": 253, "spellName": "Augury*2"}
-{"spellID": 254, "spellName": "Arcane Eye*4"}
-{"spellID": 255, "spellName": "Absorb Elements*1"}
-{"spellID": 256, "spellName": "Beast Bond*1"}
-{"spellID": 257, "spellName": "Dissonant Whispers*1"}
-{"spellID": 258, "spellName": "Stinking Cloud*3"}
-{"spellID": 259, "spellName": "Tashas Hideous Laughter*1"}
-{"spellID": 260, "spellName": "Phantasmal Force*2"}
-{"spellID": 261, "spellName": "Beast Sense*2"}
+{"spellID": 254, "spellName": "ArcaneEye*4"}
+{"spellID": 255, "spellName": "AbsorbElements*1"}
+{"spellID": 256, "spellName": "BeastBond*1"}
+{"spellID": 257, "spellName": "StinkingCloud*3"}
+{"spellID": 258, "spellName": "TashasHideousLaughter*1"}
+{"spellID": 259, "spellName": "PhantasmalForce*2"}
+{"spellID": 260, "spellName": "DissonantWhispers*1"}
+{"spellID": 261, "spellName": "FeignDeath*3"}
 {"spellID": 262, "spellName": "Shillelagh*0"}
-{"spellID": 263, "spellName": "Goodberry*1"}
-{"spellID": 264, "spellName": "Feign Death*3"}
-{"spellID": 265, "spellName": "Frostbite*0"}
-{"spellID": 266, "spellName": "Rope Trick*2"}
-{"spellID": 267, "spellName": "Lightning Bolt*3"}
-{"spellID": 268, "spellName": "Poison Spray*0"}
-{"spellID": 269, "spellName": "Burning Hands*1"}
-{"spellID": 270, "spellName": "Witch Bolt*1"}
-{"spellID": 271, "spellName": "Create Bonfire*0"}
-{"spellID": 272, "spellName": "Giant Insect*4"}
-{"spellID": 273, "spellName": "Wall of Water*3"}
-{"spellID": 274, "spellName": "Water Walk*3"}
+{"spellID": 263, "spellName": "Frostbite*0"}
+{"spellID": 264, "spellName": "Goodberry*1"}
+{"spellID": 265, "spellName": "BeastSense*2"}
+{"spellID": 266, "spellName": "RopeTrick*2"}
+{"spellID": 267, "spellName": "LightningBolt*3"}
+{"spellID": 268, "spellName": "PoisonSpray*0"}
+{"spellID": 269, "spellName": "WitchBolt*1"}
+{"spellID": 270, "spellName": "BurningHands*1"}
+{"spellID": 271, "spellName": "GiantInsect*4"}
+{"spellID": 272, "spellName": "CreateBonfire*0"}
+{"spellID": 273, "spellName": "WallofWater*3"}
+{"spellID": 274, "spellName": "WaterWalk*3"}
 {"spellID": 275, "spellName": "Earthbind*2"}
 {"spellID": 276, "spellName": "Longstrider*1"}
-{"spellID": 277, "spellName": "Detect Evil and Good*1"}
-{"spellID": 278, "spellName": "Clairvoyance*3"}
-{"spellID": 279, "spellName": "Create Food and Water*3"}
-{"spellID": 280, "spellName": "Aid*2"}
-{"spellID": 281, "spellName": "Warding Bond*2"}
-{"spellID": 282, "spellName": "Color Spray*1"}
-{"spellID": 283, "spellName": "Cloud of Daggers*2"}
-{"spellID": 284, "spellName": "Produce Flame*0"}
-{"spellID": 285, "spellName": "Booming Blade*0"}
-{"spellID": 286, "spellName": "Snare*1"}
-{"spellID": 287, "spellName": "Magic Circle*3"}
-{"spellID": 288, "spellName": "Enemies Abound*3"}
+{"spellID": 277, "spellName": "CreateFoodandWater*3"}
+{"spellID": 278, "spellName": "Aid*2"}
+{"spellID": 279, "spellName": "DetectEvilandGood*1"}
+{"spellID": 280, "spellName": "Clairvoyance*3"}
+{"spellID": 281, "spellName": "WardingBond*2"}
+{"spellID": 282, "spellName": "CloudofDaggers*2"}
+{"spellID": 283, "spellName": "ColorSpray*1"}
+{"spellID": 284, "spellName": "ProduceFlame*0"}
+{"spellID": 285, "spellName": "Snare*1"}
+{"spellID": 286, "spellName": "BoomingBlade*0"}
+{"spellID": 287, "spellName": "MagicCircle*3"}
+{"spellID": 288, "spellName": "EnemiesAbound*3"}
 {"spellID": 289, "spellName": "Grease*1"}
-{"spellID": 290, "spellName": "Tensers Floating Disk*1"}
-{"spellID": 291, "spellName": "Zephyr Strike*1"}
+{"spellID": 290, "spellName": "TensersFloatingDisk*1"}
+{"spellID": 291, "spellName": "ZephyrStrike*1"}
 {"spellID": 292, "spellName": "Blur*2"}
-{"spellID": 293, "spellName": "Aganazzars Scorcher*2"}
-{"spellID": 294, "spellName": "Detect Poison and Disease*1"}
+{"spellID": 293, "spellName": "AganazzarsScorcher*2"}
+{"spellID": 294, "spellName": "DetectPoisonandDisease*1"}
 {"spellID": 295, "spellName": "Ceremony*1"}
-{"spellID": 296, "spellName": "Locate Object*2"}
-{"spellID": 297, "spellName": "Snillocs Snowball Swarm*2"}
-{"spellID": 298, "spellName": "Melfs Acid Arrow*2"}
-{"spellID": 299, "spellName": "Dragons Breath*2"}
-{"spellID": 300, "spellName": "Enlarge/Reduce*2"}
-{"spellID": 301, "spellName": "Knock*2"}
-{"spellID": 302, "spellName": "Earth Tremor*1"}
-{"spellID": 303, "spellName": "Shadow Blade*2"}
+{"spellID": 296, "spellName": "LocateObject*2"}
+{"spellID": 297, "spellName": "SnillocsSnowballSwarm*2"}
+{"spellID": 298, "spellName": "MelfsAcidArrow*2"}
+{"spellID": 299, "spellName": "DragonsBreath*2"}
+{"spellID": 300, "spellName": "Knock*2"}
+{"spellID": 301, "spellName": "Enlarge/Reduce*2"}
+{"spellID": 302, "spellName": "EarthTremor*1"}
+{"spellID": 303, "spellName": "ShadowBlade*2"}
 {"spellID": 304, "spellName": "Jump*1"}
-{"spellID": 305, "spellName": "Sword Burst*0"}
-{"spellID": 306, "spellName": "Feather Fall*1"}
-{"spellID": 307, "spellName": "Expeditious Retreat*1"}
-{"spellID": 308, "spellName": "Arms of Hadar*1"}
-{"spellID": 309, "spellName": "Calm Emotions*2"}
-{"spellID": 310, "spellName": "Teleportation Circle*5"}
+{"spellID": 305, "spellName": "SwordBurst*0"}
+{"spellID": 306, "spellName": "FeatherFall*1"}
+{"spellID": 307, "spellName": "ExpeditiousRetreat*1"}
+{"spellID": 308, "spellName": "ArmsofHadar*1"}
+{"spellID": 309, "spellName": "CalmEmotions*2"}
+{"spellID": 310, "spellName": "TeleportationCircle*5"}
 {"spellID": 311, "spellName": "Eyebite*6"}
-{"spellID": 312, "spellName": "Pyrotechnics*2"}
+{"spellID": 312, "spellName": "GreaterInvisibility*4"}
 {"spellID": 313, "spellName": "Awaken*5"}
-{"spellID": 314, "spellName": "Greater Invisibility*4"}
-{"spellID": 315, "spellName": "Continual Flame*2"}
+{"spellID": 314, "spellName": "Pyrotechnics*2"}
+{"spellID": 315, "spellName": "WallofForce*5"}
 {"spellID": 316, "spellName": "Geas*5"}
-{"spellID": 317, "spellName": "Shadow of Moil*4"}
-{"spellID": 318, "spellName": "Wall of Force*5"}
-{"spellID": 319, "spellName": "Tiny Servant*3"}
+{"spellID": 317, "spellName": "ContinualFlame*2"}
+{"spellID": 318, "spellName": "ShadowofMoil*4"}
+{"spellID": 319, "spellName": "TinyServant*3"}
 {"spellID": 320, "spellName": "Telekinesis*5"}
-{"spellID": 321, "spellName": "Far Step*5"}
-{"spellID": 322, "spellName": "Flame Arrows*3"}
-{"spellID": 323, "spellName": "Enervation*5"}
-{"spellID": 324, "spellName": "Magic Mouth*2"}
-{"spellID": 325, "spellName": "Thunder Step*3"}
-{"spellID": 326, "spellName": "Silent Image*1"}
+{"spellID": 321, "spellName": "FarStep*5"}
+{"spellID": 322, "spellName": "MagicMouth*2"}
+{"spellID": 323, "spellName": "FlameArrows*3"}
+{"spellID": 324, "spellName": "ThunderStep*3"}
+{"spellID": 325, "spellName": "Enervation*5"}
+{"spellID": 326, "spellName": "SilentImage*1"}
 {"spellID": 327, "spellName": "Slow*3"}
-{"spellID": 328, "spellName": "Primal Savagery*0"}
+{"spellID": 328, "spellName": "PrimalSavagery*0"}

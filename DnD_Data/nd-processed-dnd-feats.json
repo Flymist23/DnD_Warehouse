@@ -1,50 +1,50 @@
-{"featID": 0, "featName": "Mobile"}
-{"featID": 1, "featName": "Observant"}
-{"featID": 2, "featName": "Elven Accuracy"}
-{"featID": 3, "featName": "Spell Sniper"}
-{"featID": 4, "featName": "Elemental Adept"}
-{"featID": 5, "featName": "Lucky"}
-{"featID": 6, "featName": "War Caster"}
+{"featID": 0, "featName": "Observant"}
+{"featID": 1, "featName": "Mobile"}
+{"featID": 2, "featName": "SpellSniper"}
+{"featID": 3, "featName": "Lucky"}
+{"featID": 4, "featName": "ElementalAdept"}
+{"featID": 5, "featName": "WarCaster"}
+{"featID": 6, "featName": "ElvenAccuracy"}
 {"featID": 7, "featName": "Actor"}
 {"featID": 8, "featName": "Alert"}
-{"featID": 9, "featName": "Heavily Armored"}
+{"featID": 9, "featName": "HeavilyArmored"}
 {"featID": 10, "featName": "Tough"}
-{"featID": 11, "featName": "Resilient"}
-{"featID": 12, "featName": "Skilled"}
-{"featID": 13, "featName": "Second Chance"}
-{"featID": 14, "featName": "Inspiring Leader"}
-{"featID": 15, "featName": "Keen Mind"}
-{"featID": 16, "featName": "Polearm Master"}
-{"featID": 17, "featName": "Great Weapon Master"}
+{"featID": 11, "featName": "Skilled"}
+{"featID": 12, "featName": "Resilient"}
+{"featID": 13, "featName": "SecondChance"}
+{"featID": 14, "featName": "InspiringLeader"}
+{"featID": 15, "featName": "KeenMind"}
+{"featID": 16, "featName": "GreatWeaponMaster"}
+{"featID": 17, "featName": "PolearmMaster"}
 {"featID": 18, "featName": "Sentinel"}
-{"featID": 19, "featName": "Shield Master"}
-{"featID": 20, "featName": "Squat Nimbleness"}
+{"featID": 19, "featName": "SquatNimbleness"}
+{"featID": 20, "featName": "ShieldMaster"}
 {"featID": 21, "featName": "Sharpshooter"}
-{"featID": 22, "featName": "CBow Expert"}
+{"featID": 22, "featName": "CBowExpert"}
 {"featID": 23, "featName": "Linguist"}
-{"featID": 24, "featName": "Fade Away"}
+{"featID": 24, "featName": "FadeAway"}
 {"featID": 25, "featName": "Charger"}
-{"featID": 26, "featName": "Dual Wielder"}
-{"featID": 27, "featName": "Heavy Armor Master"}
+{"featID": 26, "featName": "DualWielder"}
+{"featID": 27, "featName": "HeavyArmorMaster"}
 {"featID": 28, "featName": "Healer"}
-{"featID": 29, "featName": "Dragon Hide"}
-{"featID": 30, "featName": "Mage Slayer"}
-{"featID": 31, "featName": "Wood Elf Magic"}
-{"featID": 32, "featName": "Orcish Fury"}
-{"featID": 33, "featName": "Tavern Brawler"}
-{"featID": 34, "featName": "Ritual Caster"}
-{"featID": 35, "featName": "Mounted Combatant"}
-{"featID": 36, "featName": "Defensive Duelist"}
-{"featID": 37, "featName": "Magic Initiate"}
+{"featID": 29, "featName": "DragonHide"}
+{"featID": 30, "featName": "MageSlayer"}
+{"featID": 31, "featName": "WoodElfMagic"}
+{"featID": 32, "featName": "OrcishFury"}
+{"featID": 33, "featName": "TavernBrawler"}
+{"featID": 34, "featName": "RitualCaster"}
+{"featID": 35, "featName": "MountedCombatant"}
+{"featID": 36, "featName": "DefensiveDuelist"}
+{"featID": 37, "featName": "MagicInitiate"}
 {"featID": 38, "featName": "Prodigy"}
-{"featID": 39, "featName": "Savage Attacker"}
-{"featID": 40, "featName": "Flames of Phlegethos"}
-{"featID": 41, "featName": "Animal Handler"}
-{"featID": 42, "featName": "Dungeon Delver"}
+{"featID": 39, "featName": "SavageAttacker"}
+{"featID": 40, "featName": "FlamesofPhlegethos"}
+{"featID": 41, "featName": "AnimalHandler"}
+{"featID": 42, "featName": "DungeonDelver"}
 {"featID": 43, "featName": "Skulker"}
-{"featID": 44, "featName": "Weapon Master"}
+{"featID": 44, "featName": "WeaponMaster"}
 {"featID": 45, "featName": "Durable"}
-{"featID": 46, "featName": "Medium Armor Master"}
-{"featID": 47, "featName": "Bountiful Luck"}
+{"featID": 46, "featName": "MediumArmorMaster"}
+{"featID": 47, "featName": "BountifulLuck"}
 {"featID": 48, "featName": "Grappler"}
 {"featID": 49, "featName": "Athlete"}

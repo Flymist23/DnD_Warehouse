@@ -1,93 +1,93 @@
-{"subclassID": 1, "subclass_Name": "subclass_The Celestial"}
-{"subclassID": 2, "subclass_Name": "subclass_Way of the Four Elements"}
-{"subclassID": 3, "subclass_Name": "subclass_School of Conjuration"}
-{"subclassID": 4, "subclass_Name": "subclass_The Great Old One"}
-{"subclassID": 5, "subclass_Name": "subclass_War Domain"}
-{"subclassID": 6, "subclass_Name": "subclass_Path of the Totem Warrior"}
-{"subclassID": 7, "subclass_Name": "subclass_Draconic Bloodline"}
-{"subclassID": 8, "subclass_Name": "subclass_The Hexblade"}
-{"subclassID": 9, "subclass_Name": "subclass_Oath of Ancients"}
-{"subclassID": 10, "subclass_Name": "subclass_School of Necromancy"}
-{"subclassID": 11, "subclass_Name": "subclass_Battle Master"}
-{"subclassID": 12, "subclass_Name": "subclass_Circle of the Land"}
-{"subclassID": 13, "subclass_Name": "subclass_Wild Magic"}
+{"subclassID": 1, "subclass_Name": "subclass_TheCelestial"}
+{"subclassID": 2, "subclass_Name": "subclass_WayoftheFourElements"}
+{"subclassID": 3, "subclass_Name": "subclass_SchoolofConjuration"}
+{"subclassID": 4, "subclass_Name": "subclass_TheGreatOldOne"}
+{"subclassID": 5, "subclass_Name": "subclass_WarDomain"}
+{"subclassID": 6, "subclass_Name": "subclass_PathoftheTotemWarrior"}
+{"subclassID": 7, "subclass_Name": "subclass_DraconicBloodline"}
+{"subclassID": 8, "subclass_Name": "subclass_TheHexblade"}
+{"subclassID": 9, "subclass_Name": "subclass_OathofAncients"}
+{"subclassID": 10, "subclass_Name": "subclass_SchoolofNecromancy"}
+{"subclassID": 11, "subclass_Name": "subclass_BattleMaster"}
+{"subclassID": 12, "subclass_Name": "subclass_CircleoftheLand"}
+{"subclassID": 13, "subclass_Name": "subclass_WildMagic"}
 {"subclassID": 14, "subclass_Name": "subclass_Champion"}
-{"subclassID": 15, "subclass_Name": "subclass_Oath of Devotion"}
-{"subclassID": 16, "subclass_Name": "subclass_Beast Master"}
-{"subclassID": 17, "subclass_Name": "subclass_Oath of Vengeance"}
-{"subclassID": 18, "subclass_Name": "subclass_Eldritch Knight"}
-{"subclassID": 19, "subclass_Name": "subclass_Path of the Berserker"}
-{"subclassID": 20, "subclass_Name": "subclass_Circle of the Moon"}
-{"subclassID": 21, "subclass_Name": "subclass_Arcane Trickster"}
-{"subclassID": 22, "subclass_Name": "subclass_Life Domain"}
-{"subclassID": 23, "subclass_Name": "subclass_Order of the Soul Knife"}
-{"subclassID": 24, "subclass_Name": "subclass_Purple Dragon Knight"}
-{"subclassID": 25, "subclass_Name": "subclass_School of Abjuration"}
-{"subclassID": 26, "subclass_Name": "subclass_Way of the Drunken Master"}
+{"subclassID": 15, "subclass_Name": "subclass_OathofDevotion"}
+{"subclassID": 16, "subclass_Name": "subclass_BeastMaster"}
+{"subclassID": 17, "subclass_Name": "subclass_OathofVengeance"}
+{"subclassID": 18, "subclass_Name": "subclass_EldritchKnight"}
+{"subclassID": 19, "subclass_Name": "subclass_PathoftheBerserker"}
+{"subclassID": 20, "subclass_Name": "subclass_CircleoftheMoon"}
+{"subclassID": 21, "subclass_Name": "subclass_ArcaneTrickster"}
+{"subclassID": 22, "subclass_Name": "subclass_LifeDomain"}
+{"subclassID": 23, "subclass_Name": "subclass_OrderoftheSoulKnife"}
+{"subclassID": 24, "subclass_Name": "subclass_PurpleDragonKnight"}
+{"subclassID": 25, "subclass_Name": "subclass_SchoolofAbjuration"}
+{"subclassID": 26, "subclass_Name": "subclass_WayoftheDrunkenMaster"}
 {"subclassID": 27, "subclass_Name": "subclass_Swashbuckler"}
-{"subclassID": 28, "subclass_Name": "subclass_Tempest Domain"}
+{"subclassID": 28, "subclass_Name": "subclass_TempestDomain"}
 {"subclassID": 29, "subclass_Name": "subclass_Thief"}
 {"subclassID": 30, "subclass_Name": "subclass_Mastermind"}
-{"subclassID": 31, "subclass_Name": "subclass_Forge Domain"}
+{"subclassID": 31, "subclass_Name": "subclass_ForgeDomain"}
 {"subclassID": 32, "subclass_Name": "subclass_Hunter"}
-{"subclassID": 33, "subclass_Name": "subclass_Path of the Zealot"}
-{"subclassID": 34, "subclass_Name": "subclass_School of Evocation"}
-{"subclassID": 35, "subclass_Name": "subclass_College of Swords"}
+{"subclassID": 33, "subclass_Name": "subclass_PathoftheZealot"}
+{"subclassID": 34, "subclass_Name": "subclass_SchoolofEvocation"}
+{"subclassID": 35, "subclass_Name": "subclass_CollegeofSwords"}
 {"subclassID": 36, "subclass_Name": "subclass_Samurai"}
-{"subclassID": 37, "subclass_Name": "subclass_Circle of spores"}
-{"subclassID": 38, "subclass_Name": "subclass_Storm Sorcery"}
-{"subclassID": 39, "subclass_Name": "subclass_Way of the Sun Soul"}
+{"subclassID": 37, "subclass_Name": "subclass_Circleofspores"}
+{"subclassID": 38, "subclass_Name": "subclass_StormSorcery"}
+{"subclassID": 39, "subclass_Name": "subclass_WayoftheSunSoul"}
 {"subclassID": 40, "subclass_Name": "subclass_OathBreaker"}
-{"subclassID": 41, "subclass_Name": "subclass_Nature Domain"}
-{"subclassID": 42, "subclass_Name": "subclass_College of Glamour"}
-{"subclassID": 43, "subclass_Name": "subclass_Shadow Magic"}
-{"subclassID": 44, "subclass_Name": "subclass_Trickery Domain"}
-{"subclassID": 45, "subclass_Name": "subclass_Horizon Walker"}
-{"subclassID": 46, "subclass_Name": "subclass_Divine Soul"}
-{"subclassID": 47, "subclass_Name": "subclass_Grave Domain"}
+{"subclassID": 41, "subclass_Name": "subclass_NatureDomain"}
+{"subclassID": 42, "subclass_Name": "subclass_CollegeofGlamour"}
+{"subclassID": 43, "subclass_Name": "subclass_ShadowMagic"}
+{"subclassID": 44, "subclass_Name": "subclass_TrickeryDomain"}
+{"subclassID": 45, "subclass_Name": "subclass_HorizonWalker"}
+{"subclassID": 46, "subclass_Name": "subclass_DivineSoul"}
+{"subclassID": 47, "subclass_Name": "subclass_GraveDomain"}
 {"subclassID": 48, "subclass_Name": "subclass_Assassin"}
-{"subclassID": 49, "subclass_Name": "subclass_Order of the Mutant"}
+{"subclassID": 49, "subclass_Name": "subclass_OrderoftheMutant"}
 {"subclassID": 50, "subclass_Name": "subclass_Cavalier"}
-{"subclassID": 51, "subclass_Name": "subclass_Revised Favored Soul"}
-{"subclassID": 52, "subclass_Name": "subclass_Arcane Archer"}
-{"subclassID": 53, "subclass_Name": "subclass_Death Domain"}
-{"subclassID": 54, "subclass_Name": "subclass_Circle of the Shepherd"}
-{"subclassID": 55, "subclass_Name": "subclass_War Magic"}
-{"subclassID": 56, "subclass_Name": "subclass_Order of the Wu Jen"}
-{"subclassID": 57, "subclass_Name": "subclass_School of Transmutation"}
-{"subclassID": 58, "subclass_Name": "subclass_Beast Conclave"}
-{"subclassID": 59, "subclass_Name": "subclass_Knowledge Domain"}
-{"subclassID": 60, "subclass_Name": "subclass_College of Lore"}
-{"subclassID": 61, "subclass_Name": "subclass_Gloom Stalker"}
-{"subclassID": 62, "subclass_Name": "subclass_Way of Shadow"}
-{"subclassID": 63, "subclass_Name": "subclass_Way of the Open Hand"}
-{"subclassID": 64, "subclass_Name": "subclass_Path of the Storm Herald"}
-{"subclassID": 65, "subclass_Name": "subclass_School of Illusion"}
-{"subclassID": 66, "subclass_Name": "subclass_Monster Slayer"}
+{"subclassID": 51, "subclass_Name": "subclass_RevisedFavoredSoul"}
+{"subclassID": 52, "subclass_Name": "subclass_ArcaneArcher"}
+{"subclassID": 53, "subclass_Name": "subclass_DeathDomain"}
+{"subclassID": 54, "subclass_Name": "subclass_CircleoftheShepherd"}
+{"subclassID": 55, "subclass_Name": "subclass_WarMagic"}
+{"subclassID": 56, "subclass_Name": "subclass_OrderoftheWuJen"}
+{"subclassID": 57, "subclass_Name": "subclass_SchoolofTransmutation"}
+{"subclassID": 58, "subclass_Name": "subclass_BeastConclave"}
+{"subclassID": 59, "subclass_Name": "subclass_KnowledgeDomain"}
+{"subclassID": 60, "subclass_Name": "subclass_CollegeofLore"}
+{"subclassID": 61, "subclass_Name": "subclass_GloomStalker"}
+{"subclassID": 62, "subclass_Name": "subclass_WayofShadow"}
+{"subclassID": 63, "subclass_Name": "subclass_WayoftheOpenHand"}
+{"subclassID": 64, "subclass_Name": "subclass_PathoftheStormHerald"}
+{"subclassID": 65, "subclass_Name": "subclass_SchoolofIllusion"}
+{"subclassID": 66, "subclass_Name": "subclass_MonsterSlayer"}
 {"subclassID": 67, "subclass_Name": "subclass_Scout"}
-{"subclassID": 68, "subclass_Name": "subclass_School of Enchantment"}
-{"subclassID": 69, "subclass_Name": "subclass_Way of the Kensei"}
-{"subclassID": 70, "subclass_Name": "subclass_Oath of the Crown"}
-{"subclassID": 71, "subclass_Name": "subclass_Circle of Dreams"}
+{"subclassID": 68, "subclass_Name": "subclass_SchoolofEnchantment"}
+{"subclassID": 69, "subclass_Name": "subclass_WayoftheKensei"}
+{"subclassID": 70, "subclass_Name": "subclass_OathoftheCrown"}
+{"subclassID": 71, "subclass_Name": "subclass_CircleofDreams"}
 {"subclassID": 72, "subclass_Name": "subclass_Gunsmith"}
-{"subclassID": 73, "subclass_Name": "subclass_Path of the Battlerager"}
-{"subclassID": 74, "subclass_Name": "subclass_Arcana Domain"}
-{"subclassID": 75, "subclass_Name": "subclass_College of Whispers"}
-{"subclassID": 76, "subclass_Name": "subclass_School of Divination"}
-{"subclassID": 77, "subclass_Name": "subclass_Hunter Conclave"}
-{"subclassID": 78, "subclass_Name": "subclass_Light Domain"}
-{"subclassID": 79, "subclass_Name": "subclass_The Fiend"}
-{"subclassID": 80, "subclass_Name": "subclass_College of Valor"}
-{"subclassID": 81, "subclass_Name": "subclass_Path of the Ancestral Guardian"}
-{"subclassID": 82, "subclass_Name": "subclass_Lore Mastery"}
-{"subclassID": 83, "subclass_Name": "subclass_Oath of Conquest"}
-{"subclassID": 84, "subclass_Name": "subclass_Oath of Free Commerce"}
-{"subclassID": 85, "subclass_Name": "subclass_Way of Tranquility"}
-{"subclassID": 86, "subclass_Name": "subclass_Order of the Immortal"}
-{"subclassID": 87, "subclass_Name": "subclass_The Undying"}
-{"subclassID": 88, "subclass_Name": "subclass_The Archfey"}
+{"subclassID": 73, "subclass_Name": "subclass_PathoftheBattlerager"}
+{"subclassID": 74, "subclass_Name": "subclass_ArcanaDomain"}
+{"subclassID": 75, "subclass_Name": "subclass_CollegeofWhispers"}
+{"subclassID": 76, "subclass_Name": "subclass_SchoolofDivination"}
+{"subclassID": 77, "subclass_Name": "subclass_HunterConclave"}
+{"subclassID": 78, "subclass_Name": "subclass_LightDomain"}
+{"subclassID": 79, "subclass_Name": "subclass_TheFiend"}
+{"subclassID": 80, "subclass_Name": "subclass_CollegeofValor"}
+{"subclassID": 81, "subclass_Name": "subclass_PathoftheAncestralGuardian"}
+{"subclassID": 82, "subclass_Name": "subclass_LoreMastery"}
+{"subclassID": 83, "subclass_Name": "subclass_OathofConquest"}
+{"subclassID": 84, "subclass_Name": "subclass_OathofFreeCommerce"}
+{"subclassID": 85, "subclass_Name": "subclass_WayofTranquility"}
+{"subclassID": 86, "subclass_Name": "subclass_OrderoftheImmortal"}
+{"subclassID": 87, "subclass_Name": "subclass_TheUndying"}
+{"subclassID": 88, "subclass_Name": "subclass_TheArchfey"}
 {"subclassID": 89, "subclass_Name": "subclass_Alchemist"}
-{"subclassID": 90, "subclass_Name": "subclass_Oath of Redemption"}
+{"subclassID": 90, "subclass_Name": "subclass_OathofRedemption"}
 {"subclassID": 91, "subclass_Name": "subclass_Sharpshooter"}
 {"subclassID": 92, "subclass_Name": "subclass_Bladesinging"}
-{"subclassID": 93, "subclass_Name": "subclass_Way of the Long Death"}
+{"subclassID": 93, "subclass_Name": "subclass_WayoftheLongDeath"}

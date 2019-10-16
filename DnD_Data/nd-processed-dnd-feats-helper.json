@@ -1,50 +1,50 @@
-{"featID": 1, "feats_Name": "feats_Mobile"}
-{"featID": 2, "feats_Name": "feats_Observant"}
-{"featID": 3, "feats_Name": "feats_Elven Accuracy"}
-{"featID": 4, "feats_Name": "feats_Spell Sniper"}
-{"featID": 5, "feats_Name": "feats_Elemental Adept"}
-{"featID": 6, "feats_Name": "feats_Lucky"}
-{"featID": 7, "feats_Name": "feats_War Caster"}
+{"featID": 1, "feats_Name": "feats_Observant"}
+{"featID": 2, "feats_Name": "feats_Mobile"}
+{"featID": 3, "feats_Name": "feats_SpellSniper"}
+{"featID": 4, "feats_Name": "feats_Lucky"}
+{"featID": 5, "feats_Name": "feats_ElementalAdept"}
+{"featID": 6, "feats_Name": "feats_WarCaster"}
+{"featID": 7, "feats_Name": "feats_ElvenAccuracy"}
 {"featID": 8, "feats_Name": "feats_Actor"}
 {"featID": 9, "feats_Name": "feats_Alert"}
-{"featID": 10, "feats_Name": "feats_Heavily Armored"}
+{"featID": 10, "feats_Name": "feats_HeavilyArmored"}
 {"featID": 11, "feats_Name": "feats_Tough"}
-{"featID": 12, "feats_Name": "feats_Resilient"}
-{"featID": 13, "feats_Name": "feats_Skilled"}
-{"featID": 14, "feats_Name": "feats_Second Chance"}
-{"featID": 15, "feats_Name": "feats_Inspiring Leader"}
-{"featID": 16, "feats_Name": "feats_Keen Mind"}
-{"featID": 17, "feats_Name": "feats_Polearm Master"}
-{"featID": 18, "feats_Name": "feats_Great Weapon Master"}
+{"featID": 12, "feats_Name": "feats_Skilled"}
+{"featID": 13, "feats_Name": "feats_Resilient"}
+{"featID": 14, "feats_Name": "feats_SecondChance"}
+{"featID": 15, "feats_Name": "feats_InspiringLeader"}
+{"featID": 16, "feats_Name": "feats_KeenMind"}
+{"featID": 17, "feats_Name": "feats_GreatWeaponMaster"}
+{"featID": 18, "feats_Name": "feats_PolearmMaster"}
 {"featID": 19, "feats_Name": "feats_Sentinel"}
-{"featID": 20, "feats_Name": "feats_Shield Master"}
-{"featID": 21, "feats_Name": "feats_Squat Nimbleness"}
+{"featID": 20, "feats_Name": "feats_SquatNimbleness"}
+{"featID": 21, "feats_Name": "feats_ShieldMaster"}
 {"featID": 22, "feats_Name": "feats_Sharpshooter"}
-{"featID": 23, "feats_Name": "feats_CBow Expert"}
+{"featID": 23, "feats_Name": "feats_CBowExpert"}
 {"featID": 24, "feats_Name": "feats_Linguist"}
-{"featID": 25, "feats_Name": "feats_Fade Away"}
+{"featID": 25, "feats_Name": "feats_FadeAway"}
 {"featID": 26, "feats_Name": "feats_Charger"}
-{"featID": 27, "feats_Name": "feats_Dual Wielder"}
-{"featID": 28, "feats_Name": "feats_Heavy Armor Master"}
+{"featID": 27, "feats_Name": "feats_DualWielder"}
+{"featID": 28, "feats_Name": "feats_HeavyArmorMaster"}
 {"featID": 29, "feats_Name": "feats_Healer"}
-{"featID": 30, "feats_Name": "feats_Dragon Hide"}
-{"featID": 31, "feats_Name": "feats_Mage Slayer"}
-{"featID": 32, "feats_Name": "feats_Wood Elf Magic"}
-{"featID": 33, "feats_Name": "feats_Orcish Fury"}
-{"featID": 34, "feats_Name": "feats_Tavern Brawler"}
-{"featID": 35, "feats_Name": "feats_Ritual Caster"}
-{"featID": 36, "feats_Name": "feats_Mounted Combatant"}
-{"featID": 37, "feats_Name": "feats_Defensive Duelist"}
-{"featID": 38, "feats_Name": "feats_Magic Initiate"}
+{"featID": 30, "feats_Name": "feats_DragonHide"}
+{"featID": 31, "feats_Name": "feats_MageSlayer"}
+{"featID": 32, "feats_Name": "feats_WoodElfMagic"}
+{"featID": 33, "feats_Name": "feats_OrcishFury"}
+{"featID": 34, "feats_Name": "feats_TavernBrawler"}
+{"featID": 35, "feats_Name": "feats_RitualCaster"}
+{"featID": 36, "feats_Name": "feats_MountedCombatant"}
+{"featID": 37, "feats_Name": "feats_DefensiveDuelist"}
+{"featID": 38, "feats_Name": "feats_MagicInitiate"}
 {"featID": 39, "feats_Name": "feats_Prodigy"}
-{"featID": 40, "feats_Name": "feats_Savage Attacker"}
-{"featID": 41, "feats_Name": "feats_Flames of Phlegethos"}
-{"featID": 42, "feats_Name": "feats_Animal Handler"}
-{"featID": 43, "feats_Name": "feats_Dungeon Delver"}
+{"featID": 40, "feats_Name": "feats_SavageAttacker"}
+{"featID": 41, "feats_Name": "feats_FlamesofPhlegethos"}
+{"featID": 42, "feats_Name": "feats_AnimalHandler"}
+{"featID": 43, "feats_Name": "feats_DungeonDelver"}
 {"featID": 44, "feats_Name": "feats_Skulker"}
-{"featID": 45, "feats_Name": "feats_Weapon Master"}
+{"featID": 45, "feats_Name": "feats_WeaponMaster"}
 {"featID": 46, "feats_Name": "feats_Durable"}
-{"featID": 47, "feats_Name": "feats_Medium Armor Master"}
-{"featID": 48, "feats_Name": "feats_Bountiful Luck"}
+{"featID": 47, "feats_Name": "feats_MediumArmorMaster"}
+{"featID": 48, "feats_Name": "feats_BountifulLuck"}
 {"featID": 49, "feats_Name": "feats_Grappler"}
 {"featID": 50, "feats_Name": "feats_Athlete"}
