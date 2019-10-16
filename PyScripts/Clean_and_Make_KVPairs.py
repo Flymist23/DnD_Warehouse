@@ -56,6 +56,12 @@ def AddToDictionary_2(parameter_list, fieldnames_List, filename, playerFile):
         with open('DnD_Data\\nd-processed-dnd-' + filename +'-bridge' +'.json', 'w+', newline= '') as f:
                 with open('DnD_Data\\nd-processed-dnd-' + filename +'-helper' +'.json', 'w+', newline= '') as f2:
 
+
+                                # fieldnames_List = ['classID','className']   
+                                # AddToDictionary(processed_Classes, fieldnames_List, 'classes')
+
+
+                                # Make the Bridge file
                                 recordNum = 0
                                 while recordNum < len(parameter_list):
                                         # if value is in field 
@@ -80,10 +86,10 @@ def AddToDictionary_2(parameter_list, fieldnames_List, filename, playerFile):
 
 
 
-
-                                recordNum = 0
+                                # Make the Helper file
+                                recordNum = 1
                                 # for each record
-                                while recordNum < len(fieldnames_List)-1:
+                                while recordNum < len(fieldnames_List):
                                         # data3 = json.load(lines[lineNum])                          
                                         data2 = {fieldnames_List[0]: recordNum, filename+"_Name" : filename+'_'+fieldnames_List[recordNum]}
                                         # for record in PlayerFile:
