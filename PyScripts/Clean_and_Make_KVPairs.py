@@ -63,12 +63,14 @@ def AddToDictionary_2(parameter_list, fieldnames_List, filename, playerFile):
 
                                 # Make the Bridge file
                                 recordNum = 0
+                                # while the record number is less than the length of attributes
                                 while recordNum < len(parameter_list):
-                                        # if value is in field 
+                                        # add record number to table ID such that it can be associated with Player
                                         data1 = {filename+'_'+fieldnames_List[0]: recordNum}
-
+                                        # While fieldname is in list but not the first field... 
                                         countY = 1
                                         while countY < len(fieldnames_List):
+                                                # if field value is in attribute value
                                                 if fieldnames_List[countY] in parameter_list[recordNum] :
                                                         # enter field as true
                                                         data1.update({filename+'_'+fieldnames_List[countY]: True})
@@ -133,14 +135,6 @@ def ModifyPlayerRecords(fieldnames_List, playerFile, outputFile):
 
 
 
-# def EditPlayers(parameter_list, fieldnames_List, playerFile, bridgeFile):
-#         # for record in player File
-#                 # for record in bridgeFile
-#                         # if key from 
-#         data3 ={}
-#         data = {fieldnames_List[0]: recordNum}
-#         pass
-
 # collect all words for each Key
 with open(input_file) as f:
         data = {}
@@ -190,25 +184,11 @@ SplitData(raw_Races, processed_Races)
 
 
 
-# print(processed_Classes)
-# print(processed_Subclasses)
-# print(processed_Feats)
-# print(processed_Skills)
-# print(processed_Spells)
-# print(processed_Weapons)
-
 # will make a json file of IDs and Names for dimension table
 fieldnames_List = ['classID','className']   
 AddToDictionary(processed_Classes, fieldnames_List, 'classes')
-print(processed_Classes)
-print()
-print(fieldnames_List)
 fieldnames_List = ['subclassID','subclassName']   
 AddToDictionary(processed_Subclasses, fieldnames_List, 'subclasses')
-print()
-print(processed_Subclasses)
-print()
-print(fieldnames_List)
 fieldnames_List = ['featID','featName']   
 AddToDictionary(processed_Feats, fieldnames_List, 'feats')
 fieldnames_List = ['skillID','skillName']   
@@ -218,16 +198,9 @@ AddToDictionary(processed_Spells, fieldnames_List, 'spells')
 fieldnames_List = ['weaponID','weaponName']   
 AddToDictionary(processed_Weapons, fieldnames_List, 'weapons')
 
-# extract from each field into new record table 
-
-Subclass_Bridge = []
-Feats_Bridge = []
-Skills_Bridge = []
-Spells_Bridge = []
-Weapons_Bridge = []
 
 
-
+# make Bridge and Helper tables
 fieldnames_List = ['classID']
 for fieldName in processed_Classes:
         fieldnames_List.append(fieldName)
@@ -236,27 +209,27 @@ AddToDictionary_2(raw_Classes, fieldnames_List, "class", input_file)
 fieldnames_List = ['subclassID']
 for fieldName in processed_Subclasses:
         fieldnames_List.append(fieldName)
-AddToDictionary_2(raw_Classes, fieldnames_List, "subclass", input_file)
+AddToDictionary_2(raw_Subclasses, fieldnames_List, "subclass", input_file)
 
 fieldnames_List = ['featID']
 for fieldName in processed_Feats:
         fieldnames_List.append(fieldName)
-AddToDictionary_2(raw_Classes, fieldnames_List, "feats", input_file)
+AddToDictionary_2(raw_Feats, fieldnames_List, "feats", input_file)
 
 fieldnames_List = ['skillID']
 for fieldName in processed_Skills:
         fieldnames_List.append(fieldName)
-AddToDictionary_2(raw_Classes, fieldnames_List, "skills", input_file)
+AddToDictionary_2(raw_Skills, fieldnames_List, "skills", input_file)
 
 fieldnames_List = ['spellID']
 for fieldName in processed_Spells:
         fieldnames_List.append(fieldName)
-AddToDictionary_2(raw_Classes, fieldnames_List, "spells", input_file)
+AddToDictionary_2(raw_Spells, fieldnames_List, "spells", input_file)
 
 fieldnames_List = ['weaponID']
 for fieldName in processed_Weapons:
         fieldnames_List.append(fieldName)
-AddToDictionary_2(raw_Classes, fieldnames_List, "weapons", input_file)
+AddToDictionary_2(raw_Weapons, fieldnames_List, "weapons", input_file)
 
 # list needs to change as Keys are much different in the player file
 fieldnames_List = ["Just Class","Subclass","Feats","Skills","Processed Spells","Processed Weapons"]

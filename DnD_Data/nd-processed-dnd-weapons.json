@@ -1,12 +1,12 @@
 {"weaponID": 0, "weaponName": "Dagger"}
-{"weaponID": 1, "weaponName": "Dart"}
-{"weaponID": 2, "weaponName": "UnarmedStrike"}
+{"weaponID": 1, "weaponName": "Unarmed Strike"}
+{"weaponID": 2, "weaponName": "Dart"}
 {"weaponID": 3, "weaponName": "Quarterstaff"}
-{"weaponID": 4, "weaponName": "CBowLight"}
+{"weaponID": 4, "weaponName": "CBow Light"}
 {"weaponID": 5, "weaponName": "Spear"}
-{"weaponID": 6, "weaponName": "Greataxe"}
-{"weaponID": 7, "weaponName": "Javelin"}
-{"weaponID": 8, "weaponName": "Handaxe"}
+{"weaponID": 6, "weaponName": "Javelin"}
+{"weaponID": 7, "weaponName": "Handaxe"}
+{"weaponID": 8, "weaponName": "Greataxe"}
 {"weaponID": 9, "weaponName": "Longsword"}
 {"weaponID": 10, "weaponName": "Shortsword"}
 {"weaponID": 11, "weaponName": "Scimitar"}
@@ -16,18 +16,18 @@
 {"weaponID": 15, "weaponName": "Halberd"}
 {"weaponID": 16, "weaponName": "Battleaxe"}
 {"weaponID": 17, "weaponName": "Rapier"}
-{"weaponID": 18, "weaponName": "CBowHeavy"}
+{"weaponID": 18, "weaponName": "CBow Heavy"}
 {"weaponID": 19, "weaponName": "Whip"}
 {"weaponID": 20, "weaponName": "Shortbow"}
 {"weaponID": 21, "weaponName": "Mace"}
 {"weaponID": 22, "weaponName": "Trident"}
-{"weaponID": 23, "weaponName": "Warpick"}
+{"weaponID": 23, "weaponName": "War pick"}
 {"weaponID": 24, "weaponName": "Net"}
 {"weaponID": 25, "weaponName": "Maul"}
 {"weaponID": 26, "weaponName": "Morningstar"}
-{"weaponID": 27, "weaponName": "CBowhand"}
-{"weaponID": 28, "weaponName": "Glaive"}
-{"weaponID": 29, "weaponName": "Lighthammer"}
+{"weaponID": 27, "weaponName": "CBow hand"}
+{"weaponID": 28, "weaponName": "Light hammer"}
+{"weaponID": 29, "weaponName": "Glaive"}
 {"weaponID": 30, "weaponName": "Greatclub"}
 {"weaponID": 31, "weaponName": "Sling"}
 {"weaponID": 32, "weaponName": "Sickle"}

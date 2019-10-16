@@ -1,16 +1,16 @@
-{"skillID": 1, "skills_Name": "skills_SleightofHand"}
-{"skillID": 2, "skills_Name": "skills_Deception"}
-{"skillID": 3, "skills_Name": "skills_Stealth"}
-{"skillID": 4, "skills_Name": "skills_Perception"}
+{"skillID": 1, "skills_Name": "skills_Persuasion"}
+{"skillID": 2, "skills_Name": "skills_Insight"}
+{"skillID": 3, "skills_Name": "skills_Deception"}
+{"skillID": 4, "skills_Name": "skills_Stealth"}
 {"skillID": 5, "skills_Name": "skills_History"}
-{"skillID": 6, "skills_Name": "skills_Insight"}
-{"skillID": 7, "skills_Name": "skills_Persuasion"}
-{"skillID": 8, "skills_Name": "skills_Religion"}
+{"skillID": 6, "skills_Name": "skills_Sleight of Hand"}
+{"skillID": 7, "skills_Name": "skills_Religion"}
+{"skillID": 8, "skills_Name": "skills_Perception"}
 {"skillID": 9, "skills_Name": "skills_Performance"}
 {"skillID": 10, "skills_Name": "skills_Medicine"}
 {"skillID": 11, "skills_Name": "skills_Acrobatics"}
 {"skillID": 12, "skills_Name": "skills_Arcana"}
-{"skillID": 13, "skills_Name": "skills_AnimalHandling"}
+{"skillID": 13, "skills_Name": "skills_Animal Handling"}
 {"skillID": 14, "skills_Name": "skills_Survival"}
 {"skillID": 15, "skills_Name": "skills_Intimidation"}
 {"skillID": 16, "skills_Name": "skills_Investigation"}
