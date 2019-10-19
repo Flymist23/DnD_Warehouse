@@ -13,7 +13,9 @@ raw_Feats = []
 raw_Skills = []
 raw_Spells = []
 raw_Weapons = []
+
 raw_Races=[]
+raw_Alignments=[]
 
 processed_Classes = []
 processed_Subclasses = []
@@ -21,9 +23,10 @@ processed_Feats = []
 processed_Skills = []
 processed_Spells = []
 processed_Weapons = []
-processed_Races=[]
 
-raw_fields = []
+
+processed_Races=[]
+processed_Alignments=[]
 
 
 def SplitData(raw_Lists, processed_List):
@@ -43,7 +46,7 @@ def AddToDictionary(parameter_list, fieldnames_List, filename):
         with open('\\DnD_Warehouse\\DnD_Data\\nd-processed-dnd-' + filename + '.json', 'w+', newline= '') as f:
                 count = 0
                 while count < len(parameter_list):
-                        data = {fieldnames_List[0]: count, fieldnames_List[1]: parameter_list[count]}
+                        data = {fieldnames_List[0]: "PLRK_"+str(count), fieldnames_List[1]: parameter_list[count]}
                         count = count +1
                         json.dump(data, f)
                         f.write('\n')
@@ -58,17 +61,23 @@ def AddToDictionary_2(parameter_list, fieldnames_List, filename, playerFile):
 
                                 recordNum = 0
                                 while recordNum < len(parameter_list):
+<<<<<<< Updated upstream
                                         # if value is in field 
                                         data1 = {filename+'_'+fieldnames_List[0]: recordNum}
 
+=======
+                                        # add record number to table ID such that it can be associated with Player
+                                        data1 = {filename+'_'+fieldnames_List[0]: "PLRK_"+str(recordNum)}
+                                        # While fieldname is in list but not the first field... 
+>>>>>>> Stashed changes
                                         countY = 1
                                         while countY < len(fieldnames_List):
                                                 if fieldnames_List[countY] in parameter_list[recordNum] :
                                                         # enter field as true
-                                                        data1.update({filename+'_'+fieldnames_List[countY]: True})
+                                                        data1.update({filename+'_'+fieldnames_List[countY]: 1})
                                                 else:
                                                         #  enter field as false
-                                                        data1.update({filename+'_'+fieldnames_List[countY]: False})
+                                                        data1.update({filename+'_'+fieldnames_List[countY]: 0})
                                                 countY = countY + 1
                                         
                                         recordNum = recordNum +1
@@ -85,7 +94,7 @@ def AddToDictionary_2(parameter_list, fieldnames_List, filename, playerFile):
                                 # for each record
                                 while recordNum < len(fieldnames_List)-1:
                                         # data3 = json.load(lines[lineNum])                          
-                                        data2 = {fieldnames_List[0]: recordNum, filename+"_Name" : filename+'_'+fieldnames_List[recordNum]}
+                                        data2 = {fieldnames_List[0]: "PLRK_"+str(recordNum), filename+"_Name" : filename+'_'+fieldnames_List[recordNum]}
                                         # for record in PlayerFile:
                                         # data3[fieldnames_List[0]] = recordNum
                                         # if fieldnames_List[0] == data[fieldnames_List[0]]
@@ -116,6 +125,29 @@ def ModifyPlayerRecords(fieldnames_List, playerFile, outputFile):
                                         # -search for KvP
                                 # change value in KvP to ordered number
                                 for item in fieldnames_List:
+                                        # data2 = {fieldnames_List[0]: "PLRK_"+str(recordNum), filename+"_Name" : filename+'_'+fieldnames_List[recordNum]}
+                                        
+                                        data3[item] = "PLRK_"+str(lineNum)    
+      
+                                # pf = data3.dumps([ row for row in reader ]) 
+                                json.dump(data3, of)
+                                of.write('\n')
+                of.close()
+        pf.close()
+
+def ModifyPlayerRecords2(fieldnames_List, playerFile, outputFile):
+        lineNum = 0
+        data3 ={}
+        with open(playerFile , 'r+') as pf:
+                with open(outputFile , 'w+') as of:
+                        # for line in file add to list
+                        for line in pf:
+                                lineNum = lineNum + 1
+                                data3 = json.loads(line)
+                                # for record in list add to dictionary
+                                        # -search for KvP
+                                # change value in KvP to ordered number
+                                for item in fieldnames_List:
                                 
                                         data3[item] = lineNum      
       
@@ -126,6 +158,7 @@ def ModifyPlayerRecords(fieldnames_List, playerFile, outputFile):
         pf.close()
 
 
+<<<<<<< Updated upstream
 
 # def EditPlayers(parameter_list, fieldnames_List, playerFile, bridgeFile):
 #         # for record in player File
@@ -135,6 +168,8 @@ def ModifyPlayerRecords(fieldnames_List, playerFile, outputFile):
 #         data = {fieldnames_List[0]: recordNum}
 #         pass
 
+=======
+>>>>>>> Stashed changes
 # collect all words for each Key
 with open(input_file) as f:
         data = {}
@@ -169,6 +204,10 @@ with open(input_file) as f:
                 k = "Processed Race"
                 raw_Races.append(data[k])
                 data = {}
+
+                k = "Processed Alignment"
+                raw_Alignments.append(data[k])
+                data = {}
 f.close()
 
 
@@ -179,7 +218,9 @@ SplitData(raw_Feats, processed_Feats)
 SplitData(raw_Skills, processed_Skills)
 SplitData(raw_Spells, processed_Spells)
 SplitData(raw_Weapons, processed_Weapons)
+
 SplitData(raw_Races, processed_Races)
+SplitData(raw_Alignments, processed_Alignments)
 
 
 
@@ -255,7 +296,8 @@ AddToDictionary_2(raw_Classes, fieldnames_List, "weapons", input_file)
 # list needs to change as Keys are much different in the player file
 fieldnames_List = ["Just Class","Subclass","Feats","Skills","Processed Spells","Processed Weapons"]
 ModifyPlayerRecords(fieldnames_List, input_file, output_file)
-
+fieldnames_List = ["Just Class","Subclass","Feats","Skills","Processed Spells","Processed Weapons"]
+ModifyPlayerRecords2(fieldnames_List, input_file, output_file)
 
 
 # Keys need to be renamed for BigQuery
