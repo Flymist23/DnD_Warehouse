@@ -191,17 +191,17 @@ def RenameAlignments(proc_L,Ifile):
 
                 fileContent = f.read()
                 
-                fileContent = re.sub("\a*(\"LG)", "\"PLRK_1", fileContent.rstrip())
-                fileContent = re.sub("\a*(\"LN)", "\"PLRK_2", fileContent.rstrip())
-                fileContent = re.sub("\a*(\"LE)", "\"PLRK_3", fileContent.rstrip())
+                fileContent = re.sub("\a*(\"LG)", "\"PLRK_4", fileContent.rstrip())
+                fileContent = re.sub("\a*(\"LN)", "\"PLRK_6", fileContent.rstrip())
+                fileContent = re.sub("\a*(\"LE)", "\"PLRK_0", fileContent.rstrip())
 
-                fileContent = re.sub("\a*(\"NG)", "\"PLRK_4", fileContent.rstrip())
+                fileContent = re.sub("\a*(\"NG)", "\"PLRK_7", fileContent.rstrip())
                 fileContent = re.sub("\a*(\"NN)", "\"PLRK_5", fileContent.rstrip())
-                fileContent = re.sub("\a*(\"NE)", "\"PLRK_6", fileContent.rstrip())
+                fileContent = re.sub("\a*(\"NE)", "\"PLRK_1", fileContent.rstrip())
 
-                fileContent = re.sub("\a*(\"CG)", "\"PLRK_7", fileContent.rstrip())
-                fileContent = re.sub("\a*(\"CN)", "\"PLRK_8", fileContent.rstrip())
-                fileContent = re.sub("\a*(\"CE)", "\"PLRK_9", fileContent.rstrip())
+                fileContent = re.sub("\a*(\"CG)", "\"PLRK_2", fileContent.rstrip())
+                fileContent = re.sub("\a*(\"CN)", "\"PLRK_3", fileContent.rstrip())
+                fileContent = re.sub("\a*(\"CE)", "\"PLRK_8", fileContent.rstrip())
                 count = 0
                 while count < len(proc_L):
                         fileContent = re.sub("\a*(\""+proc_L[count]+"\")", ""+str(count)+"", fileContent.rstrip())
