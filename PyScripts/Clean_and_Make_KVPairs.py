@@ -4,6 +4,7 @@ import re
 
 input_file = 'DnD_Data\\nd-proceesed-dnd-players2.json'
 output_file = 'DnD_Data\\nd-proceesed-dnd-players3.json'
+output_file2 = 'DnD_Data\\nd-proceesed-dnd-players4.json'
 # Dictionary Data is used for obtaining a single JSON object from the file and working with it 
 data = {}
 # raw lists are used to store data that can be made into CSV data to later be added to a table
@@ -137,30 +138,84 @@ def ModifyPlayerRecords(fieldnames_List, playerFile, outputFile):
                 of.close()
         pf.close()
 
-def ModifyPlayerRecords2(fieldnames_List, playerFile, outputFile):
-        lineNum = 0
+def ModifyPlayerRecords2(fieldName, playerFile, outputFile, dimFile):
         data3 ={}
-        with open(playerFile , 'r+') as pf:
-                with open(outputFile , 'w+') as of:
-                        # for line in file add to list
-                        for line in pf:
-                                
-                                data3 = json.loads(line)
-                                # for record in list add to dictionary
-                                        # -search for KvP
-                                # change value in KvP to ordered number
-                                for item in fieldnames_List:
-                                
-                                        data3[item] = lineNum      
-                                lineNum = lineNum + 1
-                                # pf = data3.dumps([ row for row in reader ]) 
-                                json.dump(data3, of)
-                                of.write('\n')
-                of.close()
-        pf.close()
+        data4 ={}
 
+        # for name in file list
+        # get file of aligmnets
+        # get playerFile
+        with open(dimFile) as df:
+                lineCount = []
+                raw_count = -1
+                for dLine in df:
+                        raw_count = raw_count + 1
+                        lineCount.append(raw_count)                        
+                with open(playerFile , 'r+') as pf:
+                        with open(outputFile , 'w+') as of:
+                                print(lineCount)
+                                # for line in file add to list                         
+                                for line in pf:     
+                                        data3 = json.loads(line)
+                                        # for record in list add to dictionary
+                                                # -search for KvP
+                                        # change value in KvP to ordered number
+                                        # filedname
+                                        number = 0
+                                        while number <= (len(lineCount)-1):
+                                                if data3.get(fieldName) == number :
+                                                        data3[fieldName] = "PLRK_"+str(number)
+                                                number = number + 1
+                                        print(data3.get(fieldName))
+                                        print(number)
+                                        json.dump(data3, of)
+                                        of.write('\n')  
+                        of.close()
+                pf.close()
+        df.close()
 
+# Keys need to be renamed for BigQuery
+def RenameKeys(parameter_list, fieldnames_List, Ifile): 
+        with open(Ifile, "r+") as f:
+                count = 0
+                fileContent = f.read()
+                while count < len(fieldnames_List):
+                        fileContent = re.sub("\a*"+fieldnames_List[count]+"", ""+parameter_list[count]+"", fileContent.rstrip())
+                        count = count + 1
+                f.seek(0)
+                f.truncate()
+                f.write(fileContent)
+        f.close()
+
+def RenameAlignments(proc_L,Ifile):
 # collect all words for each Key
+        with open(Ifile, "r+") as f:
+
+                fileContent = f.read()
+                
+                fileContent = re.sub("\a*(\"LG)", "\"PLRK_1", fileContent.rstrip())
+                fileContent = re.sub("\a*(\"LN)", "\"PLRK_2", fileContent.rstrip())
+                fileContent = re.sub("\a*(\"LE)", "\"PLRK_3", fileContent.rstrip())
+
+                fileContent = re.sub("\a*(\"NG)", "\"PLRK_4", fileContent.rstrip())
+                fileContent = re.sub("\a*(\"NN)", "\"PLRK_5", fileContent.rstrip())
+                fileContent = re.sub("\a*(\"NE)", "\"PLRK_6", fileContent.rstrip())
+
+                fileContent = re.sub("\a*(\"CG)", "\"PLRK_7", fileContent.rstrip())
+                fileContent = re.sub("\a*(\"CN)", "\"PLRK_8", fileContent.rstrip())
+                fileContent = re.sub("\a*(\"CE)", "\"PLRK_9", fileContent.rstrip())
+                count = 0
+                while count < len(proc_L):
+                        fileContent = re.sub("\a*(\""+proc_L[count]+"\")", ""+str(count)+"", fileContent.rstrip())
+                        count = count + 1
+
+                        
+                
+                f.seek(0)
+                f.truncate()
+                f.write(fileContent)
+
+        f.close()
 with open(input_file) as f:
         data = {}
         for line in f:
@@ -268,56 +323,17 @@ AddToDictionary_2(raw_Weapons, fieldnames_List, "weapons", input_file)
 # list needs to change as Keys are much different in the player file
 fieldnames_List = ["Just Class","Subclass","Feats","Skills","Processed Spells","Processed Weapons"]
 ModifyPlayerRecords(fieldnames_List, input_file, output_file)
-# fieldnames_List = ["Processed Race","Processed Alignment"]
-# ModifyPlayerRecords2(fieldnames_List, input_file, output_file)
 
 
-# Keys need to be renamed for BigQuery
-def RenameKeys(parameter_list, fieldnames_List, Ifile): 
-        with open(Ifile, "r+") as f:
-                count = 0
-                fileContent = f.read()
-                while count < len(fieldnames_List):
-                        fileContent = re.sub("\a*"+fieldnames_List[count]+"", ""+parameter_list[count]+"", fileContent.rstrip())
-                        count = count + 1
-                f.seek(0)
-                f.truncate()
-                f.write(fileContent)
-        f.close()
 
-def RenameAlignments(proc_L,Ifile):
-        with open(Ifile, "r+") as f:
 
-                fileContent = f.read()
-                
-                fileContent = re.sub("\a*(\"LG)", "\"1", fileContent.rstrip())
-                fileContent = re.sub("\a*(\"LN)", "\"2", fileContent.rstrip())
-                fileContent = re.sub("\a*(\"LE)", "\"3", fileContent.rstrip())
 
-                fileContent = re.sub("\a*(\"NG)", "\"4", fileContent.rstrip())
-                fileContent = re.sub("\a*(\"NN)", "\"5", fileContent.rstrip())
-                fileContent = re.sub("\a*(\"NE)", "\"6", fileContent.rstrip())
 
-                fileContent = re.sub("\a*(\"CG)", "\"7", fileContent.rstrip())
-                fileContent = re.sub("\a*(\"CN)", "\"8", fileContent.rstrip())
-                fileContent = re.sub("\a*(\"CE)", "\"9", fileContent.rstrip())
-                count = 0
-                while count < len(proc_L):
-                        fileContent = re.sub("\a*(\""+proc_L[count]+"\")", ""+str(count)+"", fileContent.rstrip())
-                        count = count + 1
-
-                        
-                
-                f.seek(0)
-                f.truncate()
-                f.write(fileContent)
-
-        f.close()
 
 
 
 fieldnames_List = ["Name","Date","Just Class","Subclass","Level","Feats","Skills","Processed Alignment","Processed Race","Processed Spells","Processed Weapons"]
 parameter_list = ["Players_Name","Players_Date_Created","Players_Classes","Players_Subclasses","Players_Level","Players_Feats","Players_Skills","Players_Alignment","Players_Race","Players_Spells","Players_Weapons"]
 RenameKeys(parameter_list,fieldnames_List, output_file)
-
 RenameAlignments(processed_Races, output_file)
+ModifyPlayerRecords2("Players_Race", output_file, output_file2, "DnD_Data\\nd-processed-dnd-races.json")
