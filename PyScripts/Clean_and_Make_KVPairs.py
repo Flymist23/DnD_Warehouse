@@ -153,7 +153,7 @@ def ModifyPlayerRecords2(fieldName, playerFile, outputFile, dimFile):
                         lineCount.append(raw_count)                        
                 with open(playerFile , 'r+') as pf:
                         with open(outputFile , 'w+') as of:
-                                print(lineCount)
+                                print(len(lineCount))
                                 # for line in file add to list                         
                                 for line in pf:     
                                         data3 = json.loads(line)
@@ -166,8 +166,6 @@ def ModifyPlayerRecords2(fieldName, playerFile, outputFile, dimFile):
                                                 if data3.get(fieldName) == number :
                                                         data3[fieldName] = "PLRK_"+str(number)
                                                 number = number + 1
-                                        print(data3.get(fieldName))
-                                        print(number)
                                         json.dump(data3, of)
                                         of.write('\n')  
                         of.close()
@@ -209,7 +207,9 @@ def RenameAlignments(proc_L,Ifile):
                         fileContent = re.sub("\a*(\""+proc_L[count]+"\")", ""+str(count)+"", fileContent.rstrip())
                         count = count + 1
 
-                        
+                # refoermat to YYYY-MM-DD HH:MI:SS
+                fileContent = re.sub("\"Players_Date_Created\": \"(\d{4})(\d{2})(\d{2})T(\d{2}):(\d{2}):(\d{2})Z\"", r'"Players_Date_Created": "\1-\2-\3 \4:\5:\6"', fileContent.rstrip())
+                
                 
                 f.seek(0)
                 f.truncate()
