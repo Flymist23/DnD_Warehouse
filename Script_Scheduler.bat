@@ -23,3 +23,8 @@ ECHO file data has been filered, cleaned, and preped to be pushed to bucket
 ECHO push data to bucket by manually running Push_DnD_Data_to_GCP PY
 del tmpFile 
 pause
+ECHO
+ECHO Continue if you want to delete all data; Otherwise, exit
+del "DnD_Data\*.*" /s /f /q
+del "DnD_DataBuffers\*.*" /s /f /q
+echo Done!

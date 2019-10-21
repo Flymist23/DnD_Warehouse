@@ -1,3 +1,5 @@
+
+
 This is the ETL portion of my project
 
 for convenience sake, I'm not forcing users to get the repository where
@@ -52,3 +54,31 @@ Scheduler (Windows Task Scheduler):
     -DeleteNullPlayers.ps1
         -likely needs to be run manually, if you have your PC set up that way
 Scheduled 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The scheduler server is a server separate to the Google Cloud environment and uses Task Scheduler to run a script that will then run other scripts described in the next section: “Extract, Transform, and Load”. 
+Note that during this task errors may occur if windows is set to deny execution of PowerShell scripts. 
+Report Updating is done by an integrated connection through GCP Data Studio’s data sources.
+
+
+
+
+The system is automated to extract files from the GitHub directory and 
+Between each step is a buffer file where data is stored to show the actions of the process and allow for script replacement if necessary.

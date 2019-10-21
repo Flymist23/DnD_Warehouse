@@ -190,7 +190,7 @@ def RenameAlignments(proc_L,Ifile):
         with open(Ifile, "r+") as f:
 
                 fileContent = f.read()
-                
+
                 fileContent = re.sub("\a*(\"LG)", "\"PLRK_4", fileContent.rstrip())
                 fileContent = re.sub("\a*(\"LN)", "\"PLRK_6", fileContent.rstrip())
                 fileContent = re.sub("\a*(\"LE)", "\"PLRK_0", fileContent.rstrip())
